@@ -1,0 +1,1 @@
+SNU CloudDrive is the online file storage module for SNU. It stores files. Distribution owners can choose how much storage is available by default (between 200,000 bytes and 500,000,000,000 bytes) this module is required for certain SNU distributions. [Click/tap here to learn how to build SNU](https://gist.github.com/seanpm2001/745564a46186888e829fdeb9cda584de)
