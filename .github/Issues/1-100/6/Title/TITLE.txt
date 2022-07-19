@@ -1,0 +1,1 @@
+[pCloud] offline file storage support missing #6
