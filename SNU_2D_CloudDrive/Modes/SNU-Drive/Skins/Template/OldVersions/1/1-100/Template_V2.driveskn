@@ -1,0 +1,1705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>///Skins/Template/OldVersions/1/1-100/Template_V2.driveskn</file>
+<mime>document/snu-drive</mime>
+<extension>driveskin</extension>
+<driveskn-version>Beta 0.1.0.1</driveskn-version>
+<snu-drive>
+  <driveskin>
+    <container>
+      <skin-name="Untitled1"></skin-name>
+      <skin-license="GPL3"></skin-license>
+      <skin-description="Description goes here"></skin-description>
+      <skin-enabled>True</skin-enabled>
+      <skin>
+        <required>
+            <!-- If the rest of the skin can't be made, these are the required files that need to be designed !-->
+            <miscFolderIcon>
+              <svg>
+              
+              </svg>
+            </miscFolderIcon>
+            <miscFileIcon>
+              <svg>
+              
+              </svg>
+            </miscFileIcon>
+            <miscVideoFileIcon>
+              <svg>
+              
+              </svg>
+            </miscVideoFileIcon>
+            <closeButtonIcon>
+              <svg>
+              
+              </svg>
+            </closeButtonIcon>
+            <minimizeButtonIcon>
+              <svg>
+              
+              </svg>
+            </minimizeButtonIcon>
+            <maximizeButtonIcon>
+              <svg>
+              
+              </svg>
+            </maximizeButtonIcon>
+            <miscTrashIcon>
+              <svg>
+              
+              </svg>
+            </miscTrashIcon>
+        </required>
+        <supplemental>
+            <!-- Supplemental assets are for deep detail skins. These take extra graphic design work, time, and storage to make !-->
+            <assemblySourceIcon>
+                <!-- Extensions: *.asm !-->
+                <svg>
+                
+                </svg>        
+            </assemblySourceIcon>
+            <adaSourceIcon>
+                <!-- Extensions: *.ada !-->
+                <svg>
+                
+                </svg>
+            </adaSourceIcon>
+            <actionscriptSourceIcon>
+                <!-- Extensions: *.as !-->
+                <svg>
+                
+                </svg>
+            </actionScriptSourceIcon>
+            <applescriptSourceIcon>
+                <!-- Extensions: *.applescript *.scpt *.scptd !-->
+                <svg>
+                
+                </svg>
+            </applescriptSourceIcon>
+            <apkFileIcon>
+                <!-- Extensions: *.apk *.xapk *.apks *.apkm !-->
+                <svg>
+                
+                </svg>
+            </apkFileIcon>
+            <apkFolderIcon>
+                <svg>
+                
+                </svg>
+            </apkFolderIcon>
+            <androidFolderIcon>
+                <svg>
+                
+                </svg>
+            </androidFolderIcon>
+            <aviVideoIcon>
+                <!-- Extensions: *.avi !-->
+                <svg>
+                
+                </svg>
+            </aviVideoIcon>
+            <aiffAudioIcon>
+                <!-- Extensions: *.aif *.aiff *.aifc !-->
+                <svg>
+                
+                </svg>
+            </aiffAudioIcon>
+            <alacAudioIcon>
+                <!-- Extensions: *.m4a *.caf !-->
+                <svg>
+                
+                </svg>
+            </alacAudioIcon>
+            <apeAudioIcon>
+                <!-- Extensions: *.ape !-->
+                <svg>
+                
+                </svg>
+            </apeAudioIcon>
+            <aspSourceIcon>
+                <!-- Extensions: *.asp !-->
+                <svg>
+                
+                </svg>
+            </aspSourceIcon>
+            <aspDotNetSourceIcon>
+                <!-- Extensions: *.aspx !-->
+                <svg>
+                
+                </svg>
+            </aspDotNetSourceIcon>
+            <apngImageIcon>
+                <!-- Extensions: *.apng !-->
+                <svg>
+                
+                </svg>
+            </apngImageIcon>
+            <abnfSourceIcon>
+                <!-- Extensions: *.abnf !-->
+                <svg>
+                
+                </svg>
+            </abnfSourceIcon>
+            <abapSourceIcon>
+                <!-- Extensions: *.abap !-->
+                <svg>
+                
+                </svg>
+            </abapSourceIcon>
+            <automakeSourceIcon>
+                <!-- Extensions: *.am !-->
+                <svg>
+                
+                </svg>
+            </automakeSourceIcon>
+            <autoItSourceIcon>
+                <!-- Extensions: *.au3 !-->
+                <svg>
+                
+                </svg>
+            </autoItSourceIcon>
+            <awkSourceIcon>
+                <!-- Extensions: *.awk !-->
+                <svg>
+                
+                </svg>
+            </awkSourceIcon>
+            <asciiDocSourceIcon>
+                <!-- Extensions: *.adoc !-->
+                <svg>
+                
+                </svg>
+            </asciiDocSourceIcon>
+            <amplSourceIcon>
+                <!-- Extensions: *.ampl !-->
+                <svg>
+                
+                </svg>
+            </amplSourceIcon>
+            <adobeFolderIcon>
+                <svg>
+                
+                </svg>
+            </adobeFolderIcon>
+            <antlrSourceIcon>
+                <svg>
+                
+                </svg>
+            </antlrSourceIcon>
+            <angelScriptSourceIcon>
+                <!-- File extensions: *.as !-->
+                <svg>
+                
+                </svg>
+            </angelScriptSourceIcon>
+            <appleDiskImageIcon>
+                <!-- File extensions: *.dmg !-->
+                <svg>
+                
+                </svg>
+            </appleDiskImageIcon>
+            <appleFolderIcon>
+                <svg>
+                
+                </svg>
+            </appleFolderIcon>
+            <agdaSourceIcon>
+                <svg>
+                
+                </svg>
+            </agdaSourceIcon>
+            <animeFolderIcon>
+                <svg>
+                
+                </svg>
+            </animeFolderIcon>
+            <booSourceIcon>
+                <!-- File extensions: *.boo !-->
+                <svg>
+                
+                </svg>
+            </booSourceIcon>
+            <brightScriptSourceIcon>
+                <!-- File extensions: *.brs !-->
+                <svg>
+                
+                </svg>
+            </brightScriptSourceIcon>
+            <bookshelfEmptyFolderIcon>
+                 <svg>
+                
+                </svg>
+            </bookshelfEmptyFolderIcon>
+            <bookshelfResponsiveFolderIconSet>
+                <!-- For an icon that changes with the contents inside of it !-->
+                <svg>
+                
+                </svg>
+            </bookshelfResponsiveFolderIconSet>
+            <basicSourceIcon>
+                <!-- File extensions: *.BAS !-->
+                <svg>
+                
+                </svg>
+            </basicSourceIcon>
+            <batchfileSourceIcon>
+                <!-- File extensions: *.bat *.cmd !-->
+                <svg>
+                
+                </svg>
+            </batchfileSourceIcon>
+            <ballerinaSourceIcon>
+                <!-- File extensions: *.bal !-->
+                <svg>
+                
+                </svg>
+            </ballerinaSourceIcon>
+            <bitmapImageIcon>
+                <!-- File extensions: *.bmp *.dib !-->
+                <svg>
+                
+                </svg>
+            </bitmapImageIcon>
+            <bsdFolderIcon>
+                <svg>
+                
+                </svg>
+            </bsdFolderIcon>
+            <blitzbasicSourceIcon>
+                <svg>
+                
+                </svg>
+            </blitzbasicSourceIcon>
+            <bandcampFolderIcon>
+                <!-- For content from bandcamp.com !-->
+                <svg>
+                
+                </svg>
+            </bandcampFolderIcon>
+            <brainFolderIcon>
+                <svg>
+                
+                </svg>
+            </brainFolderIcon>
+            <bicepSourceIcon>
+                <svg>
+                
+                </svg>
+            </bicepSourceIcon>
+            <brainfuckSourceIcon>
+                <!-- File extensions: *.bf !-->
+                <svg>
+                
+                </svg>
+            </brainfuckSourceIcon>
+            <bashSourceIcon>
+                <svg>
+                
+                </svg>
+            </bashSourceIcon>
+            <cSourceIcon>
+                <!-- File extensions: *.c *.h !-->
+                <svg>
+                
+                </svg>
+            </cSourceIcon>
+            <cmakeSourceIcon>
+                <svg>
+                
+                </svg>
+            </cmakeSourceIcon>
+            <csvIcon>
+                <!-- File extensions: *.csv !-->
+                <svg>
+                
+                </svg>
+            </csvIcon>
+            <cplusplusSourceIcon>
+                <!-- File extensions: *.C *.cpp *.cxx !-->
+                <svg>
+                
+                </svg>
+            </cplusplusSourceIcon>
+            <coffeescriptSourceIcon>
+                <!-- File extensions: *.coffee *.litcoffee !-->
+                <svg>
+                
+                </svg>
+            </coffeescriptSourceIcon>
+            <csharpSourceIcon>
+                <!-- File extensions: *.cs !-->
+                <svg>
+                
+                </svg>
+            </csharpSourceIcon>
+            <camlSourceIcon>
+                <svg>
+                
+                </svg>
+            </camlSourceIcon>
+            <cssSourceIcon>
+                <!-- File extensions: *.css !-->
+                <svg>
+                
+                </svg>
+            </cssSourceIcon>
+            <cartoCSSSourceIcon>
+                <svg>
+                
+                </svh>
+            </cartoCSSSourceIcon>
+            <coqSourceIcon>
+                <svg>
+                
+                </svg>
+            </coqSourceIcon>
+            <crystalSourceIcon>
+                <!-- File extensions: *.cr !-->
+                <svg>
+                
+                </svg>
+            </crystalSourceIcon>
+            <csoundDocumentSourceIcon>
+                <svg>
+                
+                </svg>
+            </csoundDocumentSourceIcon>
+            <csoundOrcSourceIcon>
+                <svg>
+                
+                </svg>
+            </csoundOrcSourceIcon>
+            <csonSourceIcon>
+                <!-- File extensions: *.cson !-->
+                <svg>
+                
+                </svg>
+            </csonSourceIcon>
+            <cafFileIcon>
+                <!-- File extensions: *.caf !-->
+                <svg>
+                
+                </svg>
+            </cafFileIcon>
+            <cudaSourceIcon>
+                <!-- File extensions: *.cuda !-->
+                <svg>
+                
+                </svg>
+            </cudaSourceIcon>
+            <coolSourceIcon>
+                <!-- File extensions: *.cool !-->
+                <svg>
+                
+                </svg>
+            </coolSourceIcon>
+            <consoleFolderIcon1>
+                <svg>
+                
+                </svg>
+            </consoleFolderIcon1>
+            <consoleFolderIcon2>
+                <svg>
+                
+                </svg>
+            </consoleFolderIcon2>
+            <cobolSourceIcon>
+                <!-- File extensions: *.cob *.cbl !-->
+                <svg>
+                
+                </svg>
+            </cobolSourceIcon>
+            <cythonSourceIcon>
+                <!-- File extensioms: *.pyx !-->
+                <svg>
+                
+                </svg>
+            </cythonSourceIcon>
+            <cowFileIcon>
+                <!-- File extensions: *.cow !-->
+                <svg>
+                
+                </svg>
+            </cowFileIcon>
+            <dSourceIcon>
+                <!-- File extensions: *.d !-->
+                <svg>
+                
+                </svg>
+            </dSourceIcon>
+            <diffSourceIcon>
+                <!-- File extensions: *.diff *.patch !-->
+                <svg>
+                
+                </svg>
+            </diffSourceIcon>
+            <dogescriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </dogescriptSourceIcon>
+            <documentsFolderIcon>
+                <svg>
+                
+                </svg>
+            </documentsFolderIcon>
+            <dmgIcon>
+                <!-- File extensions: *.dmg !-->
+                 <svg>
+                
+                </svg>
+            </dmgIcon>
+            <dartSourceIcon>
+                <!-- File extensions: *.dart !-->
+                <svg>
+                
+                </svg>
+            </dartSourceIcon>
+            <degoogleFolderIcon>
+                <svg>
+                
+                </svg>
+            </degoogleFolderIcon>
+            <dllFileIcon>
+                <!-- File extensions: *.dll !-->
+                <svg>
+                
+                </svg>
+            </dllFileIcon>
+            <djvuFileIcon>
+                <!-- File extensions: *.djvu !-->
+                <svg>
+                
+                </svg>
+            </djvuFileIcon>
+            <degooFolderIcon>
+                <!-- Syncs with the SNU Drive variant of Degoo !-->
+                <svg>
+                
+                </svg>
+            </degooFolderIcon>
+            <dafnySourceIcon>
+                <svg>
+                
+                </svg>
+            </dafnySourceIcon>
+            <dropboxFolderIcon>
+                <!-- Syncs with the SNU Drive variant of dropbox !-->
+                <svg>
+                
+                </svg>
+            </dropboxFolderIcon>
+            <discordFolderIcon>
+                <svg>
+                
+                </svg>
+            </discordFolderIcon>
+            <docbookSourceIcon>
+                <svg>
+                
+                </svg>
+            </docbookSourceIcon>
+            <dockerfileSourceIcon>
+                <svg>
+                
+                </svg>
+            </dockerfileSourceIcon>
+            <dpatchSourceIcon>
+                <svg>
+                
+                </svg>
+            </dpatchSourceIcon>
+            <debianFileIcon>
+                <!-- File extensions: *.deb !-->
+                <svg>
+                
+                </svg>
+            </debianFileIcon>
+            <dtdSourceIcon>
+                <svg>
+                
+                </svg>
+            </dtdSourceIcon>
+            <eSourceIcon>
+                <!-- File extensions: *.e !-->
+                <svg>
+                
+                </svg>
+            </eSourceIcon>
+            <eiffelSourceIcon>
+                <!-- File extensions: *.e !-->
+                <svg>
+                
+                </svg>
+            </eiffelSourceIcon>
+            <elixirSourceIcon>
+                <!-- File extensions: *.ex !-->
+                <svg>
+                
+                </svg>
+            </elixirSourceIcon>
+            <euphoriaSourceIcon>
+                <!-- File extensions: *.ex !-->
+                <svg>
+                
+                </svg>
+            </euphoriaSourceIcon>
+            <erlangSourceIcon>
+                <!-- File extensions: *.erl *.hrl !-->
+                <svg>
+                
+                </svg>
+            </erlangSourceIcon>
+            <emacsLispSourceIcon>
+                <!-- File extensions: *.el !-->
+                <svg>
+                
+                </svg>
+            </emacsLispSourceIcon>
+            <emacsFolderIcon>
+                <svg>
+                
+                </svg>
+            </emacsFolderIcon>
+            <exeFileIcon>
+                <!--File extensions: *.exe !-->
+                <svg>
+                
+                </svg>
+            </exeFileIcon>
+            <epubFileIcon>
+                <!-- File extensions: *.epub !-->
+                <svg>
+                
+                </svg>
+            </epubFileIcon>
+            <epsFileIcon>
+                <!-- File extensions: *.eps !-->
+                <svg>
+                
+                </svg>  
+            </epsFileIcon>
+            <elmSourceIcon>
+                <!-- File extensions: *.elm !-->
+                <svg>
+                
+                </svg>
+            </elmSourceIcon>
+            <earthlySourceIcon>
+                <svg>
+                
+                </svg>
+            </earthlySourceIcon>
+            <emailFolderIcon>
+                <svg>
+                
+                </svg>
+            </emailFolderIcon>
+            <fortranSourceIcon>
+                <!-- File extensions: *.f *.for *.f77 *.f95 !-->
+                <svg>
+                
+                </svg>
+            </fortranSourceIcon>
+            <forthSourceIcon>
+                <!-- File extensions: *.for !-->
+                <svg>
+                
+                </svg>
+            </forthSourceIcon>
+            <fishSourceIcon>
+                <!-- File extensions: *.fish !-->
+                <svg>
+                
+                </svg>
+            </fishSourceIcon>
+            <fluentSourceIcon>
+                <svg>
+                
+                </svg>
+            </fluentSourceIcon>
+            <ftpFolderIcon>
+                <svg>
+                
+                </svg>
+            </ftpFolderIcon>
+            <firefoxFolderIcon>
+                <svg>
+                
+                </svg>
+            </firefoxFolderIcon>
+            <gcodeSourceIcon>
+                <svg>
+                
+                </svg>
+            </gcodeSourceIcon>
+            <googleDriveFolderIcon>
+                <!-- Syncs with the SNU Drive variant of Google Drive !-->
+                <svg>
+                
+                </svg>
+            </googleDriveFolderIcon>
+            <gitFolderIcon>
+                <svg>
+                
+                </svg>
+            </gitFolderIcon>
+            <googleGoSourceIcon>
+                <svg>
+                
+                </svg>
+            </googleGoSourceIcon>
+            <googleFolderIcon>
+                <svg>
+                
+                </svg>
+            </googleFolderIcon>
+            <gamesFolderIcon>
+                <svg>
+                
+                </svg>
+            </gamesFolderIcon>
+            <gdscriptSourceIcon>
+                <!-- File extensions: *.gd !-->
+                <svg>
+                
+                </svg>
+            </gdScriptSourceIcon>
+            <gnuFolderIcon>
+                <svg>
+                
+                </svg>
+            </gnuFolderIcon>
+            <gifFileIcon>
+                <!-- File extensions: *.gif !-->
+                <svg>
+                
+                </svg>
+            </gifFileIcon>
+            <gifvFileIcon>
+                <!-- File extensions: *.gifv !-->
+                <svg>
+                
+                </svg>
+            </gifvFileIcon>
+            <haskellSourceIcon>
+                <!-- File extensions: *.hs !-->
+                <svg>
+                
+                </svg>
+            </haskellSourceIcon>
+            <hamlSourceIcon>
+                <!-- File extensions: *.hml *.haml !-->
+                <svg>
+                
+                </svg>
+            </hamlSourceIcon>
+            <htmlSourceIcon>
+                <!-- File extensions: *.htm *.html *.mhtm *.mhtml *.xhtm *.xhtml *.hta !-->
+                <svg>
+                
+                </svg>
+            </htmlSourceIcon>
+            <hospitalFolderIcon>
+                <svg>
+                
+                </svg>
+            </hospitalFolderIcon>
+            <handlebarsSourceIcon>
+                <svg>
+                
+                </svg>
+            </handlebarsSourceIcon>
+            <hpFolderIcon>
+                <svg>
+                
+                </svg>
+            </hpFolderIcon>
+            <hackSourceIcon>
+                <!-- File extensioms: *.php *.hack !-->
+                <svg>
+                
+                </svg>
+            </hackSourceIcon>
+            <hyphySourceIcon>
+                <svg>
+                
+                </svg>
+            </hyphySourceIcon>
+            <hlslSourceIcon>
+                <!-- File extensions: *.hlsl !-->
+                <svg>
+                
+                </svg>
+            </hlslSourceIcon>
+            <hclSourceIcon>
+                <svg>
+                
+                </svg>
+            </hclSourceIcon>
+            <historyFolderIcon>
+                <svg>
+                
+                </svg>
+            </historyFolderIcon>
+            <haxeSourceIcon>
+                <!-- File extensions: *.haxe !-->
+                <svg>
+                
+                </svg>
+            </haxeSourceIcon>
+            <heifFileIcon>
+                <!-- File extensions: *.heif !-->
+                <svg>
+                
+                </svg>
+            </heifFileIcon>
+            <imagesFolderIcon>
+                <svg>
+                
+                </svg>
+            </imagesFolderIcon>
+            <innoSetupSourceIcon>
+                <!-- File extensions: *.inno !-->
+                <svg>
+                
+                </svg>
+            </innoSetupSourceIcon>
+            <iniSourceIcon>
+                <!-- File extensions: *.cfg *.ini !-->
+                <svg>
+                
+                </svg>
+            </iniSourceIcon>
+            <idrisSourceIcon>
+                <svg>
+                
+                </svg>
+            </idrisSourceIcon>
+            <ironPythonSourceIcon>
+                <svg>
+                
+                </svg>
+            </ironPythonSourceIcon>
+            <iosFolderIcon>
+                <svg>
+                
+                </svg>
+            </iosFolderIcon>
+            <iPhoneOSFolderIcon>
+                <svg>
+                
+                </svg>
+            </iPhoneOSFolderIcon>
+            <iPadOSFolderIcon>
+                <svg>
+                
+                </svg>
+            </iPadOSFolderIcon>
+            <ipaFileIcon>
+                <!-- File extensions: *.ipa !-->
+                <svg>
+                
+                </svg>
+            </ipaFileIcon>
+            <imageJSourceIcon>
+                <svg>
+                
+                </svg>
+            </imageJSourceIcon>
+            <isoFileIcon>
+                <!-- File extensions: *.iso !-->
+                <svg>
+                
+                </svg>
+            </isoFileIcon>
+            <icoFileIcon>
+                <!-- File extensions: *.ico !-->
+                <svg>
+                
+                </svg>
+            </icoFileIcon>
+            <javaSourceIcon>
+                <!-- File extensions: *.java !-->
+                <svg>
+                
+                </svg>
+            </javaSourceIcon>
+            <jsonSourceIcon>
+                <!-- File extensions: *.json !-->
+                <svg>
+                
+                </svg>
+            </jsonSourceIcon>
+            <javaScriptSourceIcon>
+                <!-- File extensions: *.js *.cjs *.mjs !-->
+                <svg>
+                
+                </svg>
+            </javaScriptSourceIcon>
+            <jpgFileIcon>
+                <!-- File extensions: *.jpg *.jif !-->
+                <svg>
+                
+                </svg>
+            </jpgFileIcon>
+            </jpegFileIcon>
+                <!-- File extensions: *.jpeg *.jfif !-->
+                <svg>
+                
+                </svg>
+            </jpegFileIcon>
+            <kotlinSourceIcon>
+                <!-- File extensions: *.kt *.ktm *.kts !-->
+                <svg>
+                
+                </svg>
+            </kotlinSourceIcon>
+            <kdeFolderIcon>
+                <svg>
+                
+                </svg>
+            </kdeFolderIcon>
+            <lxdeFolderIcon>
+                <svg>
+                
+                </svg>
+            </lxdeFolderIcon>
+            <llvmSourceIcon>
+                <!-- File extensions: *.ll !-->
+                <svg>
+                
+                </svg>
+            </llvmSourceIcon>
+            <loveFolderIcon>
+                <svg>
+                
+                </svg>
+            </loveFolderIcon>
+            <lispSourceIcon>
+                <svg>
+                
+                </svg>
+            </lispSourceIcon>
+            <logtalkSourceIcon>
+                <svg>
+                
+                </svg>
+            </logtalkSourceIcon>
+            <lolCodeSourceIcon>
+                <svg>
+                
+                </svg>
+            </lolcodeSourceIcon>
+            <luaSourceIcon>
+                <!-- File extensions: *.lua !-->
+                <svg>
+                
+                </svg>
+            </luaSourceIcon>
+            <microsoftFolderIcon>
+                <svg>
+                
+                </svg>
+            </microsoftFolderIcon>
+            <moviesFolderIcon>
+                <svg>
+                
+                </svg>
+            </moviesFolderIcon>
+            <mswordFileIcon1>
+                <!-- For use for older Microsoft Word documents (Word 1.0 to Word 2003) .doc !-->
+                <!-- File extensions: *.doc !-->
+                <svg>
+                
+                </svg>
+            </mswordFileIcon1>
+            <mswordFileIcon2>
+                <!-- For use for newer Microsoft Word documents (Word 2007 and up, office 365) .docx !-->
+                <!-- File extensions: *.docx !-->
+                <svg>
+                
+                </svg>
+            </mswordFileIcon2>
+            <msexcelFileIcon1>
+                <!-- For use for older Microsoft Excel spreadsheets (Excel 1.0 to Excel 2003) .xls !-->
+                <!-- File extensions: *.xls !-->
+                <svg>
+                
+                </svg>
+            </msexcelFileIcon1>
+            <msexcelFileIcon2>
+                <!-- For use for newer Microsoft Excel spreadsheets (Excel 2007 and up, office 365) .xlsx !-->
+                <!-- File extensions: *.xlsx !-->
+                <svg>
+                
+                </svg>
+            </mswordFileIcon2>
+            <mediaFireFolderIcon>
+                <!-- Syncs with the SNU Drive variant of MediaFire !-->
+                <svg>
+                
+                </svg>
+            </mediaFireFolderIcon>
+            <mkvFileIcon>
+                <!-- File extensions: *.mkv !-->
+                <svg>
+                
+                </svg>
+            </mkvFileIcon>
+            <mp4FileIcon>
+                <!-- File extensions: *.mp4 !-->
+                <svg>
+                
+                </svg>
+            </mp4FileIcon>
+            <mp3FileIcon>
+                <!-- File extensions: *.mp3 !-->
+                <svg>
+                
+                </svg>
+            </mp3FileIcon>
+            <midiFileIcon>
+                <!-- File extensions: *.mid !-->
+                <svg>
+                
+                </svg>
+            </midiFileIcon>
+            <matlabSourceIcon>
+                <svg>
+                
+                </svg>
+            </matlabSourceIcon>
+            <mathematicaSourceIcon>
+                <!-- File extensions: *.m !-->
+                <svg>
+                
+                </svg>
+            </mathematicaSourceIcon>
+            <mercurySourceIcon>
+                <svg>
+                
+                </svg>
+            </mercurySourceIcon>
+            <mSourceIcon>
+                <!-- File extensions: *.m !-->
+                <svg>
+                
+                </svg>
+            </mSourceIcon>
+            <mp2FileIcon>
+                <!-- File extensions: *.mp2 !-->
+                <svg>
+                
+                </svg>
+            </mp2FileIcon>
+            <moonScriptSourceIcon>
+                <!-- File extensions: *.moon !-->
+                <svg>
+                
+                </svg>
+            </moonScriptSourceIcon>
+            <metalSourceIcon>
+                <!-- File extensions: *.metal !-->
+                <svg>
+                
+                </svg>
+            </metalSourceIcon>
+            <mathFolderIcon>
+                <svg>
+                
+                </svg>
+            </mathFolderIcon>
+            <movFileIcon>
+                <!-- File extensions: *.mov !-->
+                <svg>
+                
+                </svg>
+            </movFileIcon>
+            <nimSourceIcon>
+                <!-- File extensions: *.nim *.nimrod *.nimble !-->
+                <svg>
+                
+                </svg>
+            </nimSourceIcon>
+            <nsisSourceIcon>
+                <svg>
+                
+                </svg>
+            </nsisSourceIcon>
+            <netscapeFolderIcon>
+                <svg>
+                
+                </svg>
+            </netscapeFolderIcon>
+            <netmFileIcon>
+                <!-- File extensions: *.netm !-->
+                <svg>
+                
+                </svg>
+            </netmFileIcon>
+            <netpFileIcon>
+                <!-- File extensions: *.netp !-->
+                <svg>
+                
+                </svg>
+            </netpFileIcon>
+            <netRexxSourceIcon>
+                <svg>
+                
+                </svg>
+            </netRexxSourceIcon>
+            <oneDriveFolderIcon>
+                <!-- Syncs with the SNU Drive variant of OneDrive !-->
+                <svg>
+                
+                </svg>
+            </oneDriveFolderIcon>
+            <objective-cSourceIcon>
+                <!-- File extensions: *.m !-->
+                <svg>
+                
+                </svg>
+            </objective-cSourceIcon>
+            <objective-cppSourceIcon>
+                <!-- File extensions: *.mm !-->
+                <svg>
+                
+                </svg>
+            </objective-cppSourceIcon>
+            <objective-jSourceIcon>
+                <!-- File extensions: *.j !-->
+                <svg>
+                
+                </svg>
+            </objective-jSourceIcon>
+            <ocamlSourceIcon>
+                <svg>
+                
+                </svg>
+            </ocamlSourceIcon>
+            <oggFileIcon>
+                <!-- File extensions: *.ogg !-->
+                <svg>
+                
+                </svg>
+            </oggFileIcon>
+            <ogaFileIcon>
+                <!-- File extensions: *.oga !-->
+                <svg>
+                
+                </svg>
+            </ogaFileIcon>
+            <ogvFileIcon>
+                <!-- File extensions: *.ogv !-->
+                <svg>
+                
+                </svg>
+            </ogvFileIcon>
+            <opusFileIcon>
+                <svg>
+                
+                </svg>
+            </opusFileIcon>
+            <pythonSourceIcon>
+                <!-- File extensions: *.py *.pyw *.py3 !-->
+                <svg>
+                
+                </svg>
+            </pythonSourceIcon>
+            <ponySourceIcon>
+                <!-- File extensions: *.pony !-->
+                <svg>
+                
+                </svg>
+            </ponySourceIcon>
+            <picturesFolderIcon>
+                <svg>
+                
+                </svg>
+            </picturesFolderIcon>
+            <pascalSourceIcon>
+                <!-- File extensions: *.pas !-->
+                <svg>
+                
+                </svg>
+            </pascalSourceIcon>
+            <pngFileIcon>
+                <!-- File extensions: *.png *.pns !-->
+                <svg>
+                
+                </svg>
+            </pngFileIcon>
+            <psdFileIcon>
+                <!-- File extensions: *.psd *.pdt !-->
+                <svg>
+                
+                </svg>
+            </psdFileIcon>
+            <postscriptSourceIcon>
+                <!-- File extensions: *.ps *.eps !-->
+                <svg>
+                
+                </svg>
+            </postscriptSourceIcon>
+            <pdfFileIcon>
+                <!-- File extensions: *.pdf !-->
+                <svg>
+                
+                </svg>
+            </pdfFileIcon>
+            <pureBasicSourceIcon>
+                <svg>
+                
+                </svg>
+            </pureBasicSourceIcon>
+            <pureScriptSourceIcon>
+                <!-- File extensions: *.purs !-->
+                <svg>
+                
+                </svg>
+            </pureScriptSourceIcon>
+            <pureDataSourceIcon>
+                <svg>
+                
+                </svg>
+            </pureDataSourceIcon>
+            <pigSourceIcon>
+                <!-- File extensions: *.pig !-->
+                <svg>
+                
+                </svg>
+            </pigSourceIcon>
+            <powershellSourceIcon>
+                <!-- File extensions: *.ps1 !-->
+                <svg>
+                
+                </svg>
+            </powershellSourceIcon>
+            <prologSourceIcon>
+                <!-- File extensions: *.pl *.pro !-->
+                <svg>
+                
+                </svg>
+            </prologSourceIcon>
+            <puppetSourceIcon>
+                <svg>
+                
+                </svg>
+            </puppetSourceIcon>
+            <pCloudFolderIcon>
+                <!-- Syncs with SNU Drives variant of pCloud !-->
+                <svg>
+                
+                </svg>
+            </pCloudFolderIcon>
+            <protonMailFolderIcon>
+                <svg>
+                
+                </svg>
+            </protonMailFolderIcon>
+            <protonDriveFolderIcon>
+                <!-- Syncs with the SNU Drive variant of ProtonDrive !-->
+                <svg>
+                
+                </svg>
+            </protonDriveFolderIcon>
+            <phpSourceIcon>
+                <!-- File extensions: *.php !-->
+                <svg>
+                
+                </svg>
+            </phpSourceIcon>
+            <perlSourceIcon>
+                <!-- File extensions: *.pl !-->
+                <svg>
+                
+                </svg>
+            </perlSourceIcon>
+            <pawnSourceIcon>
+                <svg>
+                
+                </svg>
+            </pawnSourceIcon>
+            <pgpFileIcon>
+                <svg>
+                
+                </svg>
+            </pgpFileIcon>
+            <qsharpSourceIcon>
+                <!-- File extensions: *.qs !-->
+                <svg>
+                
+                </svg>
+            </qsharpSourceIcon>
+            <qmlSourceIcon>
+                <!-- File extensions: *.qml !-->
+                <svg>
+                
+                </svg>
+            </qmlSourceIcon>
+            <qmakeSourceIcon>
+                <svg>
+                
+                </svg>
+            </qmakeSourceIcon>
+            <qSourceIcon>
+                <!-- File extensions: *.q !-->
+                <svg>
+                
+                </svg>
+            </qSourceIcon>
+            <quicktimeFileIcon>
+                <!-- File extensions: *.qt !-->
+                <svg>
+                
+                </svg>
+            </quicktimeFileIcon>
+            <quicktimeFolderIcon>
+                <svg>
+                
+                </svg>
+            </quicktimeFolderIcon>
+            <rSourceIcon>
+                <!-- File extensions: *.r !-->
+                <svg>
+                
+                </svg>
+            </rSourceIcon>
+            <rmarkdownSourceIcon>
+                <!-- File extensions: *.rmd !-->
+                <svg>
+                
+                </svg>
+            </rmarkdownSourceIcon>
+            <rustSourceIcon>
+                <!-- File extensions: *.rs !-->
+                <svg>
+                
+                </svg>
+            </rustSourceIcon>
+            <rakuSourceIcon>
+                <!-- File extensions: *.raku !-->
+                <svg>
+                
+                </svg>
+            </rakuSourceIcon>
+            <rebolSourceIcon>
+                <!-- File extensions: *.r *.reb !-->
+                <svg>
+                
+                </svg>
+            <rebolSourceIcon>
+            <redSourceIcon>
+                <!-- File extensions: *.r *.red *.reds !-->
+                <svg>
+                
+                </svg>
+            </redSourceIcon>
+            <reasonSourceIcon>
+                <svg>
+                
+                </svg>
+            </reasonSourceIcon>
+            <reScriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </reScriptSourceIcon>
+            <racketSourceIcon>
+                <svg>
+                
+                </svg>
+            </racketSourceIcon>
+            <rascalSourceIcon>
+                <svg>
+                
+                </svg>
+            </rascalSourceIcon>
+            <renpySourceIcon>
+                <!-- File extensions: *.rpy !-->
+                <svg>
+                
+                </svg>
+            </renpySourceIcon>
+            <rubySourceIcon>
+                <!-- File extensions: *.rb *.ruby !-->
+                <svg>
+                
+                </svg>
+            </rubySourceIcon>
+            <rubyRakefileIcon>
+                <!-- File extensions: *.rake !-->
+                <svg>
+                
+                </svg>
+            </rubyRakefileIcon>
+            <rubyGemfileIcon>
+                <!-- File extensions: *.gem !-->
+                <svg>
+                
+                </svg>
+            </rubyGemfileIcon>
+            <rubyGemFileIcon>
+                <!-- File extensions: *.gemfile !-->
+                <svg>
+                
+                </svg>
+            </rubyGemFileIcon>
+            <rubyGemspecIcon>
+                <!-- File extensions: *.gemspec !-->
+                <svg>
+                
+                </svg>
+            </rubyGemspecIcon>
+            <ramFileIcon>
+                <!-- File extensions: *.ram !-->
+                <svg>
+                
+                </svg>
+            </ramFileIcon>
+            <rarFileIcon>
+                <!-- File extensions: *.rar !-->
+                <svg>
+                
+                </svg>
+            </rarFileIcon>
+            <rpcSourceIcon>
+                <svg>
+                
+                </svg>
+            </rpcSourceIcon>
+            <roffSourceIcon>
+                <!-- File extensions: *.roff *.1 *.2 *.3 !-->
+                <svg>
+                
+                </svg>
+            </roffSourceIcon>
+            <schemeSourceIcon>
+                <!-- File extensions: *.scm *.ss !-->
+                <svg>
+                
+                </svg>
+            </schemeSourceIcon>
+            <scalaSourceIcon>
+                <svg>
+                
+                </svg>
+            </scalaSourceIcon>
+            <swiftSourceIcon>
+                <!-- File extensions: *.swift *.sil !-->
+                <svg>
+                
+                </svg>
+            </swiftSourceIcon>
+            <smalltalkSourceIcon>
+                <!-- File extensions: *.st !-->
+                <svg>
+                
+                </svg>
+            </smalltalkSourceIcon>
+            <sb2FileIcon>
+                <!-- File extensions: *.sb2 !-->
+                <svg>
+                
+                </svg>
+            </sb2FileIcon>
+            <sb3FileIcon>
+                <!-- File extensions: *.sb3 !-->
+                <svg>
+                
+                </svg>
+            </sb3FileIcon>
+            <snuFolderIcon>
+                <svg>
+                
+                </svg>
+            </snuFolderIcon>
+            <skinsFolderIcon>
+                <svg>
+                
+                </svg>
+            </skinsFolderIcon>
+            <sqlSourceIcon>
+                <!-- File extensions: *.sql !-->
+                <svg>
+                
+                </svg>
+            </sqlSourceIcon>
+            <svgSourceIcon>
+                <!-- File extensions: *.svg !-->
+                <svg>
+                
+                </svg>
+            </svgSourceIcon>
+            <singularitySourceIcon>
+                <svg>
+                
+                </svg>
+            </singularitySourceIcon>
+            <sweaveSourceIcon>
+                <svg>
+                
+                </svg>
+            </sweaveSourceIcon>
+            <slimSourceIcon>
+                <svg>
+                
+                </svg>
+            </slimSourceIcon>
+            <systemVerilogSourceIcon>
+                <!-- File extensions: *.sv !-->
+                <svg>
+                
+                </svg>
+            </systemVerilogSourceIcon>
+            <sedSourceIcon>
+                <!-- File extensions: *.sed !-->
+                <svg>
+                
+                </svg>
+            </sedSourceIcon>
+            <scssSourceIcon>
+                <!-- File extensions: *.scss !-->
+                <svg>
+                
+                </svg>
+            </scssSourceIcon>
+            <sassSourceIcon>
+                <!-- File extensions: *.sass !-->
+                <svg>
+                
+                </svg>
+            </sassSourceIcon>
+            <sysFileIcon>
+                <!-- File extensions: *.sys !-->
+                <svg>
+                
+                </svg>
+            </sysFileIcon>
+            <standardMLSourceIcon>
+                <svg>
+                
+                </svg>
+            </standardMLSourceIcon>
+            <soliditySourceIcon>
+                <!-- File extensions: *.sol !-->
+                <svg>
+                
+                </svg>
+            </soliditySourceIcon>
+            <sageSourceIcon>
+                <svg>
+                
+                </svg>
+            </sageSourceIcon>
+            <sourcePawnSourceIcon>
+                <svg>
+                
+                </svg>
+            </sourcePawnSourceIcon>
+            <typeScriptSourceIcon>
+                <!-- File extensions: *.ts *.tsx !-->
+                <svg>
+                
+                </svg>
+            </typeScriptSourceIcon>
+            <tclSourceIcon>
+                <!-- File extensions: *.tcl !-->
+                <svg>
+                
+                </svg>
+            </tclSourceIcon>
+            <tomlSourceIcon>
+                <!-- File extensions: *.toml !-->
+                <svg>
+                
+                </svg>
+            </tomlSourceIcon>
+            <urlFileIcon>
+                <!-- File extensions: *.url *.lnk !-->
+                <svg>
+                
+                </svg>
+            </urlFileIcon>
+            <urllFileIcon>
+                <!-- File extensions: *.urll !-->
+                <svg>
+                
+                </svg>
+            </urllFileIcon>
+            <unrealScriptFileIcon>
+                <svg>
+                
+                </svg>
+            </unrealScriptFileIcon>
+            <vhdlSourceIcon>
+                <!-- File extensions: *.vhdl !-->
+                <svg>
+                
+                </svg>
+            </vhdlSourceIcon>
+            <virtualRealityFolderIcon>
+                <svg>
+                
+                </svg> 
+            </virtualRealityFolderIcon>
+            <vSourceIcon>
+                <!-- File extensions: *.v !-->
+                <svg>
+                
+                </svg>
+            </vSourceIcon>
+            <virtualMachineFolderIcon>
+                <svg>
+                
+                </svg>
+            </virtualMachineFolderIcon>
+            <videolanFolderIcon>
+                <svg>
+                
+                </svg>
+            </videolanFolderIcon>
+            <vhsFolderIcon>
+                <!-- Connects with SNU OpenVHS !-->
+                <svg>
+                
+                </svg>
+            </vhsFolderIcon>
+            <vimFolderIcon>
+                <svg>
+                
+                </svg>
+            </vimFolderIcon>
+            <vimscriptSourceIcon>
+                <!-- File extensions: *.vim !-->
+                <svg>
+                
+                </svg>
+            </vimscriptSourceIcon>
+            <valveFolderIcon>
+                <svg>
+                
+                </svg>
+            </valveFolderIcon>
+            <valaSourceIcon>
+                <!-- File extensions: *.vala *.vapi !-->
+                <svg>
+                
+                </svg>
+            </valaSourceIcon>
+            <verilogSourceIcon>
+                <!-- File extensions: *.v !-->
+                <svg>
+                
+                </svg>
+            </verilogSourceIcon>
+            <webassemblySourceIcon>
+                <!-- File extensions: *.wat *.wasm !-->
+                <svg>
+                
+                </svg>
+            </webassemblySourceIcon>
+            <webFolderIcon>
+                <svg>
+                
+                </svg>
+            </webFolderIcon>
+            <webmFileIcon>
+                 <!-- File extensions: *.webm !-->
+                <svg>
+                
+                </svg>
+            </webmFileIcon>
+            <webpFileIcon>
+                <!-- File extensions: *.webp !-->
+                <svg>
+                
+                </svg>
+            </webpFileIcon>
+            <wavFileIcon>
+                <!-- File extensions: *.wav !-->
+                <svg>
+                
+                </svg>
+            </wavFileIcon>
+            <windowsFolderIcon>
+                <svg>
+                
+                </svg>
+            </windowsFolderIcon>
+            <wacosCloudFolderIcon>
+                <!-- Connects with the SNU Drive variant of iCloud, WacOS Cloud !-->
+                <svg>
+                
+                </svg>
+            </wacosCloudFolderIcon>
+            <xmlSourceIcon>
+                <!-- File extensions: *.xml !-->
+                <svg>
+                
+                </svg>
+            </xmlSourceIcon>
+            <xsltSourceIcon>
+                <!-- File extensions: *.xslt !-->
+                <svg>
+                
+                </svg>
+            </xsltSourceIcon>
+            <yamlSourceIcon>
+                <!-- File extensions: *.yml *.yaml !-->
+                <svg>
+                
+                </svg>
+            </yamlSourceIcon>
+            <yaccSourceIcon>
+                <!-- File extensions: *.y *.yacc !-->
+                <svg>
+                
+                </svg>
+            </yaccSourceIcon>
+            <yaraSourceIcon>
+                <!-- File extensions: *.yara !-->
+                <svg>
+                
+                </svg>
+            </yaraSourceIcon>
+            <zenscriptSourceIcon>
+                <!-- File extensions: *.zs !-->
+                <svg>
+                
+                </svg>
+            </zenScriptSourceIcon>
+            <zigSourceIcon>
+                <!-- File extensions: *.zig *.zir !-->
+                <svg>
+                
+                </svg>
+            </zigSourceIcon>
+            <zipFileIcon>
+                <!-- File extensions: *.zip !-->
+                <svg>
+                
+                </svg>
+            </zipFileIcon>
+            <zapSourceIcon>
+                <!-- File extensions: *.zap !-->
+                <svg>
+                
+                </svg>
+            </zapSourceIcon>
+            <zilSourceIcon>
+                <!-- File extensions: *.zil !-->
+                <svg>
+                
+                </svg>
+            </zilSourceIcon>
+        </supplemental>
+      </skin>
+    </container>
+  </driveskin>
+</snu-drive>
+<!-- End of skin file !-->
+<!-- File version: 2 (2022, Tuesday, July 19th at 8:50 pm PST
+File type: Driveskn XML skin source file (*.driveskn)
+Line count (including blank lines and compiler line): 1706
+!-->
