@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>///Skins/Template/OldVersions/1/1-100/Template_V1.driveskn</file>
+<mime>document/snu-drive</mime>
+<extension>driveskin</extension>
+<driveskn-version>Beta 0.1</driveskn-version>
+<snu-drive>
+  <driveskin>
+    <container>
+      <skin-name="Untitled1"></skin-name>
+      <skin-license="GPL3"></skin-license>
+      <skin-description="Description goes here"></skin-description>
+      <skin-enabled>True</skin-enabled>
+      <skin>
+        <required>
+            <!-- If the rest of the skin can't be made, these are the required files that need to be designed !-->
+            <miscFolderIcon>
+              <svg>
+              
+              </svg>
+            </miscFolderIcon>
+            <miscFileIcon>
+              <svg>
+              
+              </svg>
+            </miscFileIcon>
+            <miscVideoFileIcon>
+              <svg>
+              
+              </svg>
+            </miscVideoFileIcon>
+            <closeButtonIcon>
+              <svg>
+              
+              </svg>
+            </closeButtonIcon>
+            <minimizeButtonIcon>
+              <svg>
+              
+              </svg>
+            </minimizeButtonIcon>
+            <maximizeButtonIcon>
+              <svg>
+              
+              </svg>
+            </maximizeButtonIcon>
+            <miscTrashIcon>
+              <svg>
+              
+              </svg>
+            </miscTrashIcon>
+        </required>
+        <supplemental>
+            <!-- Supplemental assets are for deep detail skins. These take extra graphic design work, time, and storage to make !-->
+            <assemblySourceIcon>
+                <svg>
+                
+                </svg>        
+            </assemblySourceIcon>
+            <adaSourceIcon>
+                <svg>
+                
+                </svg>
+            </adaSourceIcon>
+            <actionscriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </actionScriptSourceIcon>
+            <applescriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </applescriptSourceIcon>
+            <apkFileIcon>
+                <svg>
+                
+                </svg>
+            </apkFileIcon>
+            <apkFolderIcon>
+                <svg>
+                
+                </svg>
+            </apkFolderIcon>
+            <androidFolderIcon>
+                <svg>
+                
+                </svg>
+            </androidFolderIcon>
+            <aviVideoIcon>
+                <svg>
+                
+                </svg>
+            </aviVideoIcon>
+            <aiffVideoIcon>
+                <svg>
+                
+                </svg>
+            </aiffVideoIcon>
+            <alacVideoIcon>
+                <svg>
+                
+                </svg>
+            </alacVideoIcon>
+            <angelScriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </angelScriptSourceIcon>
+            <appleDiskImageIcon>
+                <svg>
+                
+                </svg>
+            </appleDiskImageIcon>
+            <appleFolderIcon>
+                <svg>
+                
+                </svg>
+            </appleFolderIcon>
+            <agdaSourceIcon>
+                <svg>
+                
+                </svg>
+            </agdaSourceIcon>
+            <animeFolderIcon>
+                <svg>
+                
+                </svg>
+            </animeFolderIcon>
+            <booSourceIcon>
+                <svg>
+                
+                </svg>
+            </booSourceIcon>
+            <brightScriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </brightScriptSourceIcon>
+            <bookshelfEmptyFolderIcon>
+                 <svg>
+                
+                </svg>
+            </bookshelfEmptyFolderIcon>
+            <bookshelfResponsiveFolderIconSet>
+                <!-- For an icon that changes with the contents inside of it !-->
+                <svg>
+                
+                </svg>
+            </bookshelfResponsiveFolderIconSet>
+            <basicSourceIcon>
+                <svg>
+                
+                </svg>
+            </basicSourceIcon>
+            <batchfileSourceIcon>
+                <svg>
+                
+                </svg>
+            </batchfileSourceIcon>
+            <ballerinaSourceIcon>
+                <svg>
+                
+                </svg>
+            </ballerinaSourceIcon>
+            <bitmapImageIcon>
+                <svg>
+                
+                </svg>
+            </bitmapImageIcon>
+            <bsdFolderIcon>
+                <svg>
+                
+                </svg>
+            </bsdFolderIcon>
+            <blitzbasicSourceIcon>
+                <svg>
+                
+                </svg>
+            </blitzbasicSourceIcon>
+            <bandcampFolderIcon>
+                <!-- For content from bandcamp.com !-->
+                <svg>
+                
+                </svg>
+            </bandcampFolderIcon>
+            <brainFolderIcon>
+                <svg>
+                
+                </svg>
+            </brainFolderIcon>
+            <cSourceIcon>
+                <svg>
+                
+                </svg>
+            </cSourceIcon>
+            <cplusplusSourceIcon>
+                <svg>
+                
+                </svg>
+            </cplusplusSourceIcon>
+            <coffeescriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </coffeescriptSourceIcon>
+            <csharpSourceIcon>
+                <svg>
+                
+                </svg>
+            </csharpSourceIcon>
+            <camlSourceIcon>
+                <svg>
+                
+                </svg>
+            </camlSourceIcon>
+            <cssSourceIcon>
+                <svg>
+                
+                </svg>
+            </cssSourceIcon>
+            <csoundDocumentSourceIcon>
+                <svg>
+                
+                </svg>
+            </csoundDocumentSourceIcon>
+            <csoundOrcSourceIcon>
+                <svg>
+                
+                </svg>
+            </csoundOrcSourceIcon>
+            <consoleFolderIcon1>
+                <svg>
+                
+                </svg>
+            </consoleFolderIcon1>
+            <consoleFolderIcon2>
+                <svg>
+                
+                </svg>
+            </consoleFolderIcon2>
+            <cobolSourceIcon>
+                <svg>
+                
+                </svg>
+            </cobolSourceIcon>
+            <cythonSourceIcon>
+                <svg>
+                
+                </svg>
+            </cythonSourceIcon>
+            <dSourceIcon>
+                <svg>
+                
+                </svg>
+            </dSourceIcon>
+            <diffSourceIcon>
+                <svg>
+                
+                </svg>
+            </diffSourceIcon>
+            <dogescriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </dogescriptSourceIcon>
+            <documentsFolderIcon>
+                <svg>
+                
+                </svg>
+            </documentsFolderIcon>
+            <dmgIcon>
+                 <svg>
+                
+                </svg>
+            </dmgIcon>
+            <dartSourceIcon>
+                <svg>
+                
+                </svg>
+            </dartSourceIcon>
+            <degoogleFolderIcon>
+                <svg>
+                
+                </svg>
+            </degoogleFolderIcon>
+            <dllFileIcon>
+                <svg>
+                
+                </svg>
+            </dllFileIcon>
+            <djvuFileIcon>
+                <svg>
+                
+                </svg>
+            </djvuFileIcon>
+            <eSourceIcon>
+                <svg>
+                
+                </svg>
+            </eSourceIcon>
+            <eiffelSourceIcon>
+                <svg>
+                
+                </svg>
+            </eiffelSourceIcon>
+            <erlangSourceIcon>
+                <svg>
+                
+                </svg>
+            </erlangSourceIcon>
+            <emacsLispSourceIcon>
+                <svg>
+                
+                </svg>
+            </emacsLispSourceIcon>
+            <emacsFolderIcon>
+                <svg>
+                
+                </svg>
+            </emacsFolderIcon>
+            <exeFileIcon>
+                <svg>
+                
+                </svg>
+            </exeFileIcon>
+            <epubFileIcon>
+                <svg>
+                
+                </svg>
+            </epubFileIcon>
+            <epsFileIcon>
+                <svg>
+                
+                </svg>  
+            </epsFileIcon>
+            <elmSourceIcon>
+                <svg>
+                
+                </svg>
+            </elmSourceIcon>
+            <emailFolderIcon>
+                <svg>
+                
+                </svg>
+            </emailFolderIcon>
+            <fortranSourceIcon>
+                <svg>
+                
+                </svg>
+            </fortranSourceIcon>
+            <forthSourceIcon>
+                <svg>
+                
+                </svg>
+            </forthSourceIcon>
+            <fishSourceIcon>
+                <svg>
+                
+                </svg>
+            </fishSourceIcon>
+            <fluentSourceIcon>
+                <svg>
+                
+                </svg>
+            </fluentSourceIcon>
+            <ftpFolderIcon>
+                <svg>
+                
+                </svg>
+            </ftpFolderIcon>
+            <firefoxFolderIcon>
+                <svg>
+                
+                </svg>
+            </firefoxFolderIcon>
+            <gcodeSourceIcon>
+                <svg>
+                
+                </svg>
+            </gcodeSourceIcon>
+            <gitFolderIcon>
+                <svg>
+                
+                </svg>
+            </gitFolderIcon>
+            <googleGoSourceIcon>
+                <svg>
+                
+                </svg>
+            </googleGoSourceIcon>
+            <googleFolderIcon>
+                <svg>
+                
+                </svg>
+            </googleFolderIcon>
+            <gamesFolderIcon>
+                <svg>
+                
+                </svg>
+            </gamesFolderIcon>
+            <gdscriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </gdScriptSourceIcon>
+            <gnuFolderIcon>
+                <svg>
+                
+                </svg>
+            </gnuFolderIcon>
+            <gifFileIcon>
+                <svg>
+                
+                </svg>
+            </gifFileIcon>
+            <haskellSourceIcon>
+                <svg>
+                
+                </svg>
+            </haskellSourceIcon>
+            <hamlSourceIcon>
+                <svg>
+                
+                </svg>
+            </hamlSourceIcon>
+            <htmlSourceIcon>
+                <svg>
+                
+                </svg>
+            </htmlSourceIcon>
+            <hospitalFolderIcon>
+                <svg>
+                
+                </svg>
+            </hospitalFolderIcon>
+            <handlebarsSourceIcon>
+                <svg>
+                
+                </svg>
+            </handlebarsSourceIcon>
+            <hpFolderIcon>
+                <svg>
+                
+                </svg>
+            </hpFolderIcon>
+            <imagesFolderIcon>
+                <svg>
+                
+                </svg>
+            </imagesFolderIcon>
+            <innoSetupSourceIcon>
+                <svg>
+                
+                </svg>
+            </innoSetupSourceIcon>
+            <iniSourceIcon>
+                <svg>
+                
+                </svg>
+            </iniSourceIcon>
+            <iosFolderIcon>
+                <svg>
+                
+                </svg>
+            </iosFolderIcon>
+            <iPhoneOSFolderIcon>
+                <svg>
+                
+                </svg>
+            </iPhoneOSFolderIcon>
+            <iPadOSFolderIcon>
+                <svg>
+                
+                </svg>
+            </iPadOSFolderIcon>
+            <ipaFileIcon>
+                <svg>
+                
+                </svg>
+            </ipaFileIcon>
+            <imageJSourceIcon>
+                <svg>
+                
+                </svg>
+            </imageJSourceIcon>
+            <isoFileIcon>
+                <svg>
+                
+                </svg>
+            </isoFileIcon>
+            <icoFileIcon>
+                <svg>
+                
+                </svg>
+            </icoFileIcon>
+            <javaSourceIcon>
+                <svg>
+                
+                </svg>
+            </javaSourceIcon>
+            <jsonSourceIcon>
+                <svg>
+                
+                </svg>
+            </jsonSourceIcon>
+            <javaScriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </javaScriptSourceIcon>
+            <jpgFileIcon>
+                <svg>
+                
+                </svg>
+            </jpgFileIcon>
+            </jpegFileIcon>
+                <svg>
+                
+                </svg>
+            </jpegFileIcon>
+            <kotlinSourceIcon>
+                <svg>
+                
+                </svg>
+            </kotlinSourceIcon>
+            <kdeFolderIcon>
+                <svg>
+                
+                </svg>
+            </kdeFolderIcon>
+            <lxdeFolderIcon>
+                <svg>
+                
+                </svg>
+            </lxdeFolderIcon>
+            <llvmSourceIcon>
+                <svg>
+                
+                </svg>
+            </llvmSourceIcon>
+            <loveFolderIcon>
+                <svg>
+                
+                </svg>
+            </loveFolderIcon>
+            <lispSourceIcon>
+                <svg>
+                
+                </svg>
+            </lispSourceIcon>
+            <logtalkSourceIcon>
+                <svg>
+                
+                </svg>
+            </logtalkSourceIcon>
+            <lolCodeSourceIcon>
+                <svg>
+                
+                </svg>
+            </lolcodeSourceIcon>
+            <microsoftFolderIcon>
+                <svg>
+                
+                </svg>
+            </microsoftFolderIcon>
+            <moviesFolderIcon>
+                <svg>
+                
+                </svg>
+            </moviesFolderIcon>
+            <mkvFileIcon>
+                <svg>
+                
+                </svg>
+            </mkvFileIcon>
+            <mp4FileIcon>
+                <svg>
+                
+                </svg>
+            </mp4FileIcon>
+            <mp3FileIcon>
+                <svg>
+                
+                </svg>
+            </mp3FileIcon>
+            <midiFileIcon>
+                <svg>
+                
+                </svg>
+            </midiFileIcon>
+            <matlabSourceIcon>
+                <svg>
+                
+                </svg>
+            </matlabSourceIcon>
+            <mathematicaSourceIcon>
+                <svg>
+                
+                </svg>
+            </mathematicaSourceIcon>
+            <mercurySourceIcon>
+                <svg>
+                
+                </svg>
+            </mercurySourceIcon>
+            <mSourceIcon>
+                <svg>
+                
+                </svg>
+            </mSourceIcon>
+            <mp2FileIcon>
+                <svg>
+                
+                </svg>
+            </mp2FileIcon>
+            <mathFolderIcon>
+                <svg>
+                
+                </svg>
+            </mathFolderIcon>
+            <movFileIcon>
+                <svg>
+                
+                </svg>
+            </movFileIcon>
+            <nimSourceIcon>
+                <svg>
+                
+                </svg>
+            </nimSourceIcon>
+            <nsisSourceIcon>
+                <svg>
+                
+                </svg>
+            </nsisSourceIcon>
+            <netscapeFolderIcon>
+                <svg>
+                
+                </svg>
+            </netscapeFolderIcon>
+            <netmFileIcon>
+                <svg>
+                
+                </svg>
+            </netmFileIcon>
+            <netpFileIcon>
+                <svg>
+                
+                </svg>
+            </netpFileIcon>
+            <objective-cSourceIcon>
+                <svg>
+                
+                </svg>
+            </objective-cSourceIcon>
+            <objective-cppSourceIcon>
+                <svg>
+                
+                </svg>
+            </objective-cppSourceIcon>
+            <objective-jSourceIcon>
+                <svg>
+                
+                </svg>
+            </objective-jSourceIcon>
+            <ocamlSourceIcon>
+                <svg>
+                
+                </svg>
+            </ocamlSourceIcon>
+            <oggFileIcon>
+                <svg>
+                
+                </svg>
+            </oggFileIcon>
+            <ogaFileIcon>
+                <svg>
+                
+                </svg>
+            </ogaFileIcon>
+            <ogvFileIcon>
+                <svg>
+                
+                </svg>
+            </ogvFileIcon>
+            <pythonSourceIcon>
+                <svg>
+                
+                </svg>
+            </pythonSourceIcon>
+            <picturesFolderIcon>
+                <svg>
+                
+                </svg>
+            </picturesFolderIcon>
+            <pascalSourceIcon>
+                <svg>
+                
+                </svg>
+            </pascalSourceIcon>
+            <pngFileIcon>
+                <svg>
+                
+                </svg>
+            </pngFileIcon>
+            <psdFileIcon>
+                <svg>
+                
+                </svg>
+            </psdFileIcon>
+            <postscriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </postscriptSourceIcon>
+            <pdfFileIcon>
+                <svg>
+                
+                </svg>
+            </pdfFileIcon>
+            <phpSourceIcon>
+                <svg>
+                
+                </svg>
+            </phpSourceIcon>
+            <perlSourceIcon>
+                <svg>
+                
+                </svg>
+            </perlSourceIcon>
+            <qsharpSourceIcon>
+                <svg>
+                
+                </svg>
+            </qsharpSourceIcon>
+            <qmlSourceIcon>
+                <svg>
+                
+                </svg>
+            </qmlSourceIcon>
+            <rSourceIcon>
+                <svg>
+                
+                </svg>
+            </rSourceIcon>
+            <rustSourceIcon>
+                <svg>
+                
+                </svg>
+            </rustSourceIcon>
+            <rakuSourceIcon>
+                <svg>
+                
+                </svg>
+            </rakuSourceIcon>
+            <rebolSourceIcon>
+                <svg>
+                
+                </svg>
+            <rebolSourceIcon>
+            <redSourceIcon>
+                <svg>
+                
+                </svg>
+            </redSourceIcon>
+            <reasonSourceIcon>
+                <svg>
+                
+                </svg>
+            </reasonSourceIcon>
+            <reScriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </reScriptSourceIcon>
+            <racketSourceIcon>
+                <svg>
+                
+                </svg>
+            </racketSourceIcon>
+            <schemeSourceIcon>
+                <svg>
+                
+                </svg>
+            </schemeSourceIcon>
+            <scalaSourceIcon>
+                <svg>
+                
+                </svg>
+            </scalaSourceIcon>
+            <swiftSourceIcon>
+                <svg>
+                
+                </svg>
+            </swiftSourceIcon>
+            <smalltalkSourceIcon>
+                <svg>
+                
+                </svg>
+            </smalltalkSourceIcon>
+            <sb2FileIcon>
+                <svg>
+                
+                </svg>
+            </sb2FileIcon>
+            <sb3FileIcon>
+                <svg>
+                
+                </svg>
+            </sb3FileIcon>
+            <snuFolderIcon>
+                <svg>
+                
+                </svg>
+            </snuFolderIcon>
+            <skinsFolderIcon>
+                <svg>
+                
+                </svg>
+            </skinsFolderIcon>
+            <sqlSourceIcon>
+                <svg>
+                
+                </svg>
+            </sqlSourceIcon>
+            <svgSourceIcon>
+                <svg>
+                
+                </svg>
+            </svgSourceIcon>
+            <typeScriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </typeScriptSourceIcon>
+            <tclSourceIcon>
+                <svg>
+                
+                </svg>
+            </tclSourceIcon>
+            <tomlSourceIcon>
+                <svg>
+                
+                </svg>
+            </tomlSourceIcon>
+            <urlFileIcon>
+                <svg>
+                
+                </svg>
+            </urlFileIcon>
+            <urllFileIcon>
+                <svg>
+                
+                </svg>
+            </urllFileIcon>
+            <unrealScriptFileIcon>
+                <svg>
+                
+                </svg>
+            </unrealScriptFileIcon>
+            <vhdlSourceIcon>
+                <svg>
+                
+                </svg>
+            </vhdlSourceIcon>
+            <virtualRealityFolderIcon>
+                <svg>
+                
+                </svg> 
+            </virtualRealityFolderIcon>
+            <vSourceIcon>
+                <svg>
+                
+                </svg>
+            </vSourceIcon>
+            <virtualMachineFolderIcon>
+                <svg>
+                
+                </svg>
+            </virtualMachineFolderIcon>
+            <webassemblySourceIcon>
+                <svg>
+                
+                </svg>
+            </webassemblySourceIcon>
+            <webFolderIcon>
+                <svg>
+                
+                </svg>
+            </webFolderIcon>
+            <windowsFolderIcon>
+                <svg>
+                
+                </svg>
+            </windowsFolderIcon>
+            <xmlSourceIcon>
+                <svg>
+                
+                </svg>
+            </xmlSourceIcon>
+            <xsltSourceIcon>
+                <svg>
+                
+                </svg>
+            </xsltSourceIcon>
+            <yamlSourceIcon>
+                <svg>
+                
+                </svg>
+            </yamlSourceIcon>
+            <yaccSourceIcon>
+                <svg>
+                
+                </svg>
+            </yaccSourceIcon>
+            <zenscriptSourceIcon>
+                <svg>
+                
+                </svg>
+            </zenScriptSourceIcon>
+            <zigSourceIcon>
+                <svg>
+                
+                </svg>
+            </zigSourceIcon>
+            <zipFileIcon>
+                <svg>
+                
+                </svg>
+            </zipFileIcon>
+            <zapSourceIcon>
+                <svg>
+                
+                </svg>
+            </zapSourceIcon>
+            <zilSourceIcon>
+                <svg>
+                
+                </svg>
+            </zilSourceIcon>
+        </supplemental>
+      </skin>
+    </container>
+  </driveskin>
+</snu-drive>
+<!-- End of skin file !-->
+<!-- File version: 1 (2022, Tuesday, July 19th at 7:00 pm PST
+File type: Driveskn XML skin source file (*.driveskn)
+Line count (including blank lines and compiler line): 951
+!-->
