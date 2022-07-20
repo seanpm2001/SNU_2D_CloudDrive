@@ -1,0 +1,3575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<file>///Skins/Template/OldVersions/1/1-100/Template_V3.driveskn</file>
+<mime>document/snu-drive</mime>
+<extension>driveskin</extension>
+<driveskn-version>Beta 0.1.0.2 (V3)</driveskn-version>
+<snu-drive>
+  <driveskin>
+    <container>
+      <skin-name="Untitled1"></skin-name>
+      <skin-license="GPL3"></skin-license>
+      <skin-description="Description goes here"></skin-description>
+      <skin-enabled>True</skin-enabled>
+      <?legend
+      { File types:
+      | Source code
+      | Document
+      | Windows system file
+      | Audio file
+      | Video file
+      | Raster image file
+      | Compressed archive file
+      | Video/Audio file
+      | Compressed archive/package
+      | Disk image
+      | Raster graphics
+      | Unknown
+      | Library
+      | Software package
+      | Windows program
+      | Raster Image file format/Animated Raster Image file format
+      | iPhoneOS/iOS/iPadOS application
+      | Spreadsheet
+      | Presentation
+      | Database file
+      | Scratch 1.x program
+      | Scratch 2 program
+      | Scratch 3 program
+      | Source code/Vector image file
+      | Source code/Software package format
+      | Windows System file
+      | Tarball
+      | Shortcut file
+      | Virtual Hard Disk
+      | Virtual Floppy Diskette
+      | Java Archive
+      | Skin file
+      } File formats:
+      #0-9
+      *.1c *.1
+      *.2
+      *.3gp *.3g2 *.3
+      *.7z
+      A
+      *.asm *.ALG *.ada *.as *.applescript *.apk *.apks *.apkm *.aj *.avi *.aif *.aiff *.aifc *.ape *.asp *.aspx *.apng *.abnf *.abap *.am *.au3 *.awk *.adoc *.ampl *.agda *.accdb   
+      B
+      *.boo *.brs *.BAS *.bat *.bal *.bmp *.bib *.bf *BUILD
+      scpt
+      C
+      *.caf *.cmd *.c *.csv *.C *.cpp *.cxx *.coffee *.cs *.css *.cr *.cson *.cuda *.cool *.cob *.cbl *.cow *.cjs *.cfg *.cls *.class *.cobra
+      D
+      *.d *.diff *.dylan *.djs *.dart *.dll *.djvu *.deb *.dmg *.dib *.doc *.docx *.dot *.dotx *.driveskn
+      E
+      *.e *.ex *.erl *.el *.exe *.epub *.eps *.elm
+      F
+      *.f *.for *.f77 *.f95 *.fish *.fs *.ftl   
+      G
+      *.g4 *.gd *.gs *.gif *.gifv *.gem *.gemfile *,gemspec 
+      H
+      *.h *.hrl *.hs *.hml *.haml *.htm *.html *.hta *.hack *.hlsl *.haxe *.heif *.http *.hbs
+      I
+      *.inno *.ini *.ipa *.iso *.ico *.i6x *.i7x *.inc *.ijm *.idr
+      J
+      *.j *.java *.json *.js *.jpg *.jif *.jpeg *.jfif *.jp2 *.jar
+      K
+      *.kt *.ktm *.kts
+      L
+      *.litcoffee *.ll *.lua *less *.lhs *.lol *.lid *.lnk *.lgt
+      M
+      *.m4a *.mhtm *.mhtml *.mjs *.mdb *.mkv *.mp4 *.mp3 *.m4v *.mid *.m *.mm *.md *.mkd *.mdown *.markdown *.mk *.mak *.make *.mp2 *.moon *.metal *.mov *.mpeg *MAKEFILE
+      N
+      *.nim *.nimrod *.nimble *.netp *.netm *.nix *.nsh
+      O
+      *.ogg *.oga *.ogv *.opus *.odt *.odf *.ods *.odp   
+      P
+      *.Po *.patch *.pyx *.php *.ppt *.pptx *.pot *.potx *.py *.pyw *.py3 *.pony *.pas *.png *.pns *.pst *.pdt *.pos *.pdf *.purs *.pig *.pug *.ps1 *.pro *.
+      Q
+      *.qs *.qml *.q *.qt
+      R
+      *.r *.rmd *.rs *.raku *.reb *.red *.reds *.rpy *.rb *.ruby *.rake *.ram *.rar *.roff *.rtf *.rst *.rc *.rkt *.res *.re *.rei
+      S
+      *.scpt *.scptd *.ss *.scm *.swift *.sil *.st *.sb *.sb2 *.sb3 *.sql *.svelte *.svg *.sv *.sed *.scss *.sass *.sys *.sol *singularity *.sp *.sml *.sig  *.sage *.scala *.scrbl *.slim
+      T
+      *.ts *.tsx *.tcl *.toml *.thrift *.txt *.tif *.tiff *.tar *.tex
+      U
+      *.url *.urll *.uot *.uc
+      V
+      *.v *.vhdl *.vhd *.vmdk *.vfd .vim *.vala .vapi
+      W
+      *.wat *.wasm *.webm *.webp *.wav
+      X
+      *.xls *.xlsx *.xlt *.xlst *.xml *.xhtm *.xhtml *.xslt *.xps *.xapk *.x *.xs
+      Y
+      *.y *.yml *.yaml *.yacc *.yara
+      Z
+      *.zip *.zs *.zig *.zir *.zil *.zap
+      Used more than once:
+      *.as *.bf *.caf *.dmg *.e *.ex *.eps *.for *.j *.m *.m4a *.Po *.py *.php *.pl *.r *.v *.zip
+      ?>
+      <skin>
+        <required>
+            <!-- If the rest of the skin can't be made, these are the required files that need to be designed !-->
+            <miscFolderIcon>
+              <svg>
+              
+              </svg>
+            </miscFolderIcon>
+            <miscFileIcon>
+              <svg>
+              
+              </svg>
+            </miscFileIcon>
+            <miscVideoFileIcon>
+              <svg>
+              
+              </svg>
+            </miscVideoFileIcon>
+            <closeButtonIcon>
+              <svg>
+              
+              </svg>
+            </closeButtonIcon>
+            <minimizeButtonIcon>
+              <svg>
+              
+              </svg>
+            </minimizeButtonIcon>
+            <maximizeButtonIcon>
+              <svg>
+              
+              </svg>
+            </maximizeButtonIcon>
+            <miscTrashIcon>
+              <svg>
+              
+              </svg>
+            </miscTrashIcon>
+        </required>
+        <supplemental>
+            <!-- Supplemental assets are for deep detail skins. These take extra graphic design work, time, and storage to make !-->
+            <_1cEnterpriseSourceIcon>
+                <fileExtensions>*.1c</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>        
+            </_1cEnterpriseSourceIcon>
+            <_3gpFileIcon>
+                <fileExtensions>*.3gp</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video/Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>        
+            </_3gpFileIcon>
+            <_3g2FileIcon>
+                <fileExtensions>*.3g2</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video/Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>        
+            </_3g2FileIcon>
+            <_7zFileIcon>
+                <fileExtensions>*.7z</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Compressed archive file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>Partially</isFolder>
+                <svg>
+                
+                </svg>        
+            </_7zFileIcon>
+            <assemblySourceIcon>
+                <fileExtensions>*.asm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>        
+            </assemblySourceIcon>
+            <algolSourceIcon>
+                <fileExtensions>*.ALG</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>        
+            </algolSourceIcon>
+            <adaSourceIcon>
+                <fileExtensions>*.ada</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </adaSourceIcon>
+            <actionscriptSourceIcon>
+                <fileExtensions>*.as</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </actionScriptSourceIcon>
+            <applescriptSourceIcon>
+                <fileExtensions>*.applescript *.scpt *.scptd</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </applescriptSourceIcon>
+            <apkFileIcon>
+                <fileExtensions>*.apk *.xapk *.apks *.apkm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Compressed archive/Package</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </apkFileIcon>
+            <apkFolderIcon>
+                <path>///APK/</path>
+                <iconEnabled>False</iconEnabled>
+                <folderType>Package storage</folderType>
+                <isBinary>Partial</isBinary>
+                <defaultFileType>*.apk *.xapk *.apks *.apkm</defaultFileType>
+                <isFolder>True</isFolder>
+                <svg>
+                
+                </svg>
+            </apkFolderIcon>
+            <androidFolderIcon>
+                <path>///Android/</path>
+                <iconEnabled>False</iconEnabled>
+                <folderType>Device storage</folderType>
+                <isBinary>Partial</isBinary>
+                <defaultFileType>*.apk *.xapk *.apks *.apkm</defaultFileType>
+                <isFolder>True</isFolder>
+                <svg>
+                
+                </svg>
+            </androidFolderIcon>
+            <aspectJSourceIcon>
+                </fileExtensions>*.aj</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </aspectJSourceIcon>
+            <aviVideoIcon>
+                <fileExtensions>*.avi</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </aviVideoIcon>
+            <aiffAudioIcon>
+                <fileExtensions>*.aif *.aiff *.aifc</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </aiffAudioIcon>
+            <alacAudioIcon>
+                <fileExtensions>*.m4a *.caf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </alacAudioIcon>
+            <apeAudioIcon>
+                <fileExtensions>*.ape</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </apeAudioIcon>
+            <aspSourceIcon>
+                <fileExtensions>*.asp</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </aspSourceIcon>
+            <aspDotNetSourceIcon>
+                <fileExtensions>*.aspx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </aspDotNetSourceIcon>
+            <apngImageIcon>
+                <fileExtensions>*.apng</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </apngImageIcon>
+            <abnfSourceIcon>
+                <fileExtensions>*.abnf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </abnfSourceIcon>
+            <abapSourceIcon>
+                <fileExtensions>*.abap</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </abapSourceIcon>
+            <automakeSourceIcon>
+                <fileExtensions>*.am</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </automakeSourceIcon>
+            <autoItSourceIcon>
+                <fileExtensions>*.au3</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </autoItSourceIcon>
+            <awkSourceIcon>
+                <fileExtensions>*.awk</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </awkSourceIcon>
+            <asciiDocSourceIcon>
+                <fileExtensions>*.adoc</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </asciiDocSourceIcon>
+            <amplSourceIcon>
+                <fileExtensions>*.ampl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </amplSourceIcon>
+            <adobeFolderIcon>
+                <path>///Adobe/</path>
+                <iconEnabled>False</iconEnabled>
+                <folderType>File storage</folderType>
+                <isBinary>Partial</isBinary>
+                <defaultFileType>*.psd</defaultFileType>
+                <isFolder>True</isFolder>
+                <svg>
+                
+                </svg>
+            </adobeFolderIcon>
+            <antlrSourceIcon>
+                <fileExtensions>*.g4</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </antlrSourceIcon>
+            <angelScriptSourceIcon>
+                <fileExtensions>*.as</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </angelScriptSourceIcon>
+            <appleDiskImageIcon>
+                <fileExtensions>*.dmg</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Disk image</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </appleDiskImageIcon>
+            <appleFolderIcon>
+                <path>///Apple/</path>
+                <iconEnabled>False</iconEnabled>
+                <folderType>File storage</folderType>
+                <isBinary>Partial</isBinary>
+                <defaultFileType>*.applescript *.scptd *.scpt *.swift *.sil *.ds_store *.dmg *.img *.heif</defaultFileType>
+                <isFolder>True</isFolder>
+                <svg>
+                
+                </svg>
+            </appleFolderIcon>
+            <agdaSourceIcon>
+                <fileExtensions>*.agda</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </agdaSourceIcon>
+            <animeFolderIcon>
+                <path>///Anime/</path>
+                <iconEnabled>False</iconEnabled>
+                <folderType>File storage</folderType>
+                <isBinary>Partial</isBinary>
+                <defaultFileType>None</defaultFileType>
+                <isFolder>True</isFolder>
+                <svg>
+                
+                </svg>
+            </animeFolderIcon>
+            <booSourceIcon>
+                <fileExtensions>*.boo</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </booSourceIcon>
+            <brightScriptSourceIcon>
+                <fileExtensions>*.brs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </brightScriptSourceIcon>
+            <bookshelfEmptyFolderIcon>
+                 <svg>
+                
+                </svg>
+            </bookshelfEmptyFolderIcon>
+            <bookshelfResponsiveFolderIconSet>
+                <!-- For an icon that changes with the contents inside of it !-->
+                <svg>
+                
+                </svg>
+            </bookshelfResponsiveFolderIconSet>
+            <basicSourceIcon>
+                <fileExtensions>*.BAS</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>ANSI</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </basicSourceIcon>
+            <batchfileSourceIcon>
+                <fileExtensions>*.bat *.cmd</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </batchfileSourceIcon>
+            <ballerinaSourceIcon>
+                <fileExtensions>*.bal</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ballerinaSourceIcon>
+            <bitmapImageIcon>
+                <fileExtensions>*.bmp *.dib</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster graphics</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </bitmapImageIcon>
+            <bsdFolderIcon>
+                <svg>
+                
+                </svg>
+            </bsdFolderIcon>
+            <blitzbasicSourceIcon>
+                <svg>
+                
+                </svg>
+            </blitzbasicSourceIcon>
+            <bandcampFolderIcon>
+                <!-- For content from bandcamp.com !-->
+                <svg>
+                
+                </svg>
+            </bandcampFolderIcon>
+            <brainFolderIcon>
+                <svg>
+                
+                </svg>
+            </brainFolderIcon>
+            <bicepSourceIcon>
+                <svg>
+                
+                </svg>
+            </bicepSourceIcon>
+            <brainfuckSourceIcon>
+                <fileExtensions>*.bf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </brainfuckSourceIcon>
+            <bibtexSourceIcon>
+                <fileExtensions>*.bib</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </bibtexSourceIcon>
+            <bashSourceIcon>
+                <svg>
+                
+                </svg>
+            </bashSourceIcon>
+            <cSourceIcon>
+                <fileExtensions>*.c *.h</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cSourceIcon>
+            <cmakeSourceIcon>
+                <svg>
+                
+                </svg>
+            </cmakeSourceIcon>
+            <csvIcon>
+                <fileExtensions>*.csv</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </csvIcon>
+            <cplusplusSourceIcon>
+                <fileExtensions>*.C *.cpp *.cxx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cplusplusSourceIcon>
+            <coffeescriptSourceIcon>
+                <fileExtensions>*.coffee *.litcoffee</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </coffeescriptSourceIcon>
+            <csharpSourceIcon>
+                <fileExtensions>*.cs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </csharpSourceIcon>
+            <camlSourceIcon>
+                <svg>
+                
+                </svg>
+            </camlSourceIcon>
+            <cssSourceIcon>
+                <fileExtensions>*.css</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cssSourceIcon>
+            <cartoCSSSourceIcon>
+                <svg>
+                
+                </svh>
+            </cartoCSSSourceIcon>
+            <coqSourceIcon>
+                <svg>
+                
+                </svg>
+            </coqSourceIcon>
+            <crystalSourceIcon>
+                <fileExtensions>*.cr</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </crystalSourceIcon>
+            <cobraSourceIcon>
+                <fileExtensions>*.cobra</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cobraSourceIcon>
+            <csoundDocumentSourceIcon>
+                <svg>
+                
+                </svg>
+            </csoundDocumentSourceIcon>
+            <csoundOrcSourceIcon>
+                <svg>
+                
+                </svg>
+            </csoundOrcSourceIcon>
+            <csonSourceIcon>
+                <fileExtensions>*.cson</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </csonSourceIcon>
+            <cafFileIcon>
+                <fileExtensions>*.caf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Unknown</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cafFileIcon>
+            <cudaSourceIcon>
+                <fileExtensions>*.cuda</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cudaSourceIcon>
+            <coolSourceIcon>
+                <fileExtensions>*.cool</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </coolSourceIcon>
+            <consoleFolderIcon1>
+                <svg>
+                
+                </svg>
+            </consoleFolderIcon1>
+            <consoleFolderIcon2>
+                <svg>
+                
+                </svg>
+            </consoleFolderIcon2>
+            <cobolSourceIcon>
+                <fileExtensions>*.cob *.cbl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cobolSourceIcon>
+            <classSourceIcon>
+                <fileExtensions>*.class</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </classSourceIcon>
+            <cythonSourceIcon>
+                <fileExtensions>*.pyx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cythonSourceIcon>
+            <cowFileIcon>
+                <fileExtensions>*.cow</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </cowFileIcon>
+            <dSourceIcon>
+                <fileExtensions>*.d</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </dSourceIcon>
+            <diffSourceIcon>
+                <fileExtensions>*.diff *.patch</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </diffSourceIcon>
+            <dylanSourceIcon>
+                <fileExtensions>*.dylan *.lid</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </dylanSourceIcon>
+            <dogescriptSourceIcon>
+                <fileExtensions>*.djs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </dogescriptSourceIcon>
+            <documentsFolderIcon>
+                <svg>
+                
+                </svg>
+            </documentsFolderIcon>
+            <dmgIcon>
+                <fileExtensions>*.dmg</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Disk image</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                 <svg>
+                
+                </svg>
+            </dmgIcon>
+            <dartSourceIcon>
+                <fileExtensions>*.dart</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </dartSourceIcon>
+            <drivesknSourceIcon>
+                <fileExtensions>*.driveskn</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Skin file</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </drivesknSourceIcon>
+            <degoogleFolderIcon>
+                <svg>
+                
+                </svg>
+            </degoogleFolderIcon>
+            <dllFileIcon>
+                <fileExtensions>*.dll</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Library</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </dllFileIcon>
+            <djvuFileIcon>
+                <fileExtensions>*.djvu</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </djvuFileIcon>
+            <daisyFileIcon>
+                <fileExtensions>*daisy.zip *.zip</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </daisyFileIcon>
+            <degooFolderIcon>
+                <!-- Syncs with the SNU Drive variant of Degoo !-->
+                <svg>
+                
+                </svg>
+            </degooFolderIcon>
+            <dafnySourceIcon>
+                <svg>
+                
+                </svg>
+            </dafnySourceIcon>
+            <dropboxFolderIcon>
+                <!-- Syncs with the SNU Drive variant of dropbox !-->
+                <svg>
+                
+                </svg>
+            </dropboxFolderIcon>
+            <discordFolderIcon>
+                <svg>
+                
+                </svg>
+            </discordFolderIcon>
+            <docbookSourceIcon>
+                <svg>
+                
+                </svg>
+            </docbookSourceIcon>
+            <dockerfileSourceIcon>
+                <svg>
+                
+                </svg>
+            </dockerfileSourceIcon>
+            <dpatchSourceIcon>
+                <svg>
+                
+                </svg>
+            </dpatchSourceIcon>
+            <debianFileIcon>
+                <fileExtensions>*.deb</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Software package</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </debianFileIcon>
+            <dtdSourceIcon>
+                <svg>
+                
+                </svg>
+            </dtdSourceIcon>
+            <eSourceIcon>
+                <fileExtensions>*.e</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </eSourceIcon>
+            <eiffelSourceIcon>
+                <fileExtensions>*.e</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </eiffelSourceIcon>
+            <elixirSourceIcon>
+                <fileExtensions>*.ex</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </elixirSourceIcon>
+            <euphoriaSourceIcon>
+                <fileExtensions>*.ex</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </euphoriaSourceIcon>
+            <erlangSourceIcon>
+                <fileExtensions>*.erl *.hrl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </erlangSourceIcon>
+            <emacsLispSourceIcon>
+                <fileExtensions>*.el</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </emacsLispSourceIcon>
+            <emacsFolderIcon>
+                <svg>
+                
+                </svg>
+            </emacsFolderIcon>
+            <exeFileIcon>
+                <fileExtensions>*.exe</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Windows Program</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </exeFileIcon>
+            <epubFileIcon>
+                <fileExtensions>*.epub</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </epubFileIcon>
+            <epsFileIcon>
+                <fileExtensions>*.eps</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>False</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>  
+            </epsFileIcon>
+            <elmSourceIcon>
+                <fileExtensions>*.elm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </elmSourceIcon>
+            <earthlySourceIcon>
+                <svg>
+                
+                </svg>
+            </earthlySourceIcon>
+            <emailFolderIcon>
+                <svg>
+                
+                </svg>
+            </emailFolderIcon>
+            <fortranSourceIcon>
+                <fileExtensions>*.f *.for *.f77 *.f95</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </fortranSourceIcon>
+            <forthSourceIcon>
+                <fileExtensions>*.for</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </forthSourceIcon>
+            <fishSourceIcon>
+                <fileExtensions>*.fish</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </fishSourceIcon>
+            <fluentSourceIcon>
+                <svg>
+                
+                </svg>
+            </fluentSourceIcon>
+            <ftpFolderIcon>
+                <svg>
+                
+                </svg>
+            </ftpFolderIcon>
+            <firefoxFolderIcon>
+                <svg>
+                
+                </svg>
+            </firefoxFolderIcon>
+            <fsharpSourceIcon>
+                <fileExtensions>*.fs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </fsharpSourceIcon>
+            <freemarkerSourceIcon>
+                <fileExtensions>*.ftl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </freemarkerSourceIcon>
+            <gcodeSourceIcon>
+                <svg>
+                
+                </svg>
+            </gcodeSourceIcon>
+            <googleDriveFolderIcon>
+                <!-- Syncs with the SNU Drive variant of Google Drive !-->
+                <svg>
+                
+                </svg>
+            </googleDriveFolderIcon>
+            <gitFolderIcon>
+                <svg>
+                
+                </svg>
+            </gitFolderIcon>
+            <googleGoSourceIcon>
+                <svg>
+                
+                </svg>
+            </googleGoSourceIcon>
+            <googleFolderIcon>
+                <svg>
+                
+                </svg>
+            </googleFolderIcon>
+            <gamesFolderIcon>
+                <svg>
+                
+                </svg>
+            </gamesFolderIcon>
+            <gdscriptSourceIcon>
+                <fileExtensions>*.gd</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </gdScriptSourceIcon>
+            <genieSourceIcon>
+                <fileExtensions>*.gs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </genieSourceIcon>
+            <gnuFolderIcon>
+                <svg>
+                
+                </svg>
+            </gnuFolderIcon>
+            <gifFileIcon>
+                <fileExtensions>*.gif</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster Image file format/Animated Raster Image file format</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </gifFileIcon>
+            <gifvFileIcon>
+                <fileExtensions>*.gifv</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </gifvFileIcon>
+            <gettextCatalogSourceIcon>
+                <fileExtensions>*.Po</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </gettextCatalogSourceIcon>
+            <gettextTranslationSourceIcon>
+                <fileExtensions>*.Po</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </gettextTranslationSourceIcon>
+            <haskellSourceIcon>
+                <fileExtensions>*.hs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </haskellSourceIcon>
+            <hamlSourceIcon>
+                <fileExtensions>*.hml *.haml</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </hamlSourceIcon>
+            <htmlSourceIcon>
+                <fileExtensions>*.htm *.html *.mhtm *.mhtml *.xhtm *.xhtml *.hta</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </htmlSourceIcon>
+            <hospitalFolderIcon>
+                <svg>
+                
+                </svg>
+            </hospitalFolderIcon>
+            <handlebarsSourceIcon>
+                <fileExtensions>*.hbs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </handlebarsSourceIcon>
+            <hpFolderIcon>
+                <svg>
+                
+                </svg>
+            </hpFolderIcon>
+            <hackSourceIcon>
+                <fileExtensions>*.php *.hack</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </hackSourceIcon>
+            <hyphySourceIcon>
+                <fileExtensions>*.bf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </hyphySourceIcon>
+            <hlslSourceIcon>
+                <fileExtensions>*.hlsl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </hlslSourceIcon>
+            <httpSourceIcon>
+                <fileExtensions>*.http</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </httpSourceIcon>
+            <hclSourceIcon>
+                <svg>
+                
+                </svg>
+            </hclSourceIcon>
+            <historyFolderIcon>
+                <svg>
+                
+                </svg>
+            </historyFolderIcon>
+            <haxeSourceIcon>
+                <fileExtensions>*.haxe</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </haxeSourceIcon>
+            <heifFileIcon>
+                <fileExtensions>*.heif</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </heifFileIcon>
+            <imagesFolderIcon>
+                <svg>
+                
+                </svg>
+            </imagesFolderIcon>
+            <innoSetupSourceIcon>
+                <fileExtensions>*.inno</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </innoSetupSourceIcon>
+            <iniSourceIcon>
+                <fileExtensions>*.cfg *.ini</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </iniSourceIcon>
+            <idrisSourceIcon>
+                <fileExtensions>*.idr</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </idrisSourceIcon>
+            <ironPythonSourceIcon>
+                <fileExtensions>*.py</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ironPythonSourceIcon>
+            <iosFolderIcon>
+                <svg>
+                
+                </svg>
+            </iosFolderIcon>
+            <iPhoneOSFolderIcon>
+                <svg>
+                
+                </svg>
+            </iPhoneOSFolderIcon>
+            <iPadOSFolderIcon>
+                <svg>
+                
+                </svg>
+            </iPadOSFolderIcon>
+            <ipaFileIcon>
+                <fileExtensions>*.ipa</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>iPhoneOS/iOS/iPadOS application</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ipaFileIcon>
+            <imageJSourceIcon>
+                <fileExtensions>*.ijm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </imageJSourceIcon>
+            <isoFileIcon>
+                <fileExtensions>*.iso</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Disk Image</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>Partially</isFolder>
+                <svg>
+                
+                </svg>
+            </isoFileIcon>
+            <icoFileIcon>
+                <fileExtensions>*.ico</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </icoFileIcon>
+            <inform6SourceIcon>
+                <fileExtensions>*.i6x</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </inform6SourceIcon>
+            <inform7SourceIcon>
+                <fileExtensions>*.i7x</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </inform7SourceIcon>
+            <javaSourceIcon>
+                <fileExtensions>*.java</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </javaSourceIcon>
+            <jsonSourceIcon>
+                <fileExtensions>*.json</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </jsonSourceIcon>
+            <jarIcon>
+                <fileExtensions>*.jar</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Java archive</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </jarIcon>
+            <javaScriptSourceIcon>
+                <fileExtensions>*.js *.cjs *.mjs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </javaScriptSourceIcon>
+            <jpgFileIcon>
+                <fileExtensions>*.jpg *.jif</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster Image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </jpgFileIcon>
+            </jpegFileIcon>
+                <fileExtensions>*.jpeg *.jfif</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster Image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </jpegFileIcon>
+            </jpeg2000FileIcon>
+                <fileExtensions>*.jp2</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster Image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </jpeg2000FileIcon>
+            <jSourceIcon>
+                <fileExtensions>*.j</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </jSourceIcon>
+            <kotlinSourceIcon>
+                <fileExtensions>*.kt *.ktm *.kts</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </kotlinSourceIcon>
+            <kdeFolderIcon>
+                <svg>
+                
+                </svg>
+            </kdeFolderIcon>
+            <lxdeFolderIcon>
+                <svg>
+                
+                </svg>
+            </lxdeFolderIcon>
+            <llvmSourceIcon>
+                <fileExtensions>*.ll</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </llvmSourceIcon>
+            <loveFolderIcon>
+                <svg>
+                
+                </svg>
+            </loveFolderIcon>
+            <lispSourceIcon>
+                <svg>
+                
+                </svg>
+            </lispSourceIcon>
+            <logtalkSourceIcon>
+                <fileExtensions>*.lgt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </logtalkSourceIcon>
+            <luaSourceIcon>
+                <fileExtensions>*.lua</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </luaSourceIcon>
+            <lessSourceIcon>
+                <fileExtensions>*.less</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </lessSourceIcon>
+            <literateHaskellSourceIcon>
+                <fileExtensions>*.lhs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </literateHaskellSourceIcon>
+            <lolcodeSourceIcon>
+                <fileExtensions>*.lol</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </lolcodeSourceIcon>
+            <microsoftFolderIcon>
+                <svg>
+                
+                </svg>
+            </microsoftFolderIcon>
+            <moviesFolderIcon>
+                <svg>
+                
+                </svg>
+            </moviesFolderIcon>
+            <mswordFileIcon1>
+                <!-- For use for older Microsoft Word documents (Word 1.0 to Word 2003) .doc !-->
+                <fileExtensions>*.doc</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mswordFileIcon1>
+            <mswordFileIcon2>
+                <!-- For use for newer Microsoft Word documents (Word 2007 and up, office 365) .docx !-->
+                <fileExtensions>*.docx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mswordFileIcon2>
+            <msexcelFileIcon1>
+                <!-- For use for older Microsoft Excel spreadsheets (Excel 1.0 to Excel 2003) .xls !-->
+                <fileExtensions>*.xls</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Spreadsheet</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </msexcelFileIcon1>
+            <msexcelFileIcon2>
+                <!-- For use for newer Microsoft Excel spreadsheets (Excel 2007 and up, office 365) .xlsx !-->
+                <fileExtensions>*.xlsx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Spreadsheet</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </msexcelFileIcon2>
+            <mspowerpointFileIcon1>
+                <!-- For use for older Microsoft PowerPoint presentations (PowerPoint 1.0 to PowerPoint 2003) .ppt !-->
+                <fileExtensions>*.ppt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Presentation</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mspowerpointFileIcon1>
+            <mspowerpointFileIcon2>
+                <!-- For use for newer Microsoft PowerPoint presentations (PowerPoint 2007 and up, office 365) .pptx !-->
+                <fileExtensions>*.pptx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Presentation</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mspowerpointFileIcon2>
+            <msaccessFileIcon1>
+                <!-- For use for older Microsoft Access databases (Access 1.0 to Access 2003) .mdb !-->
+                <fileExtensions>*.mdb</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Database file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </msaccessFileIcon1>
+            <msaccessFileIcon2>
+                <!-- For use for newer Microsoft Acess databases (Access 2007 and up, office 365) .accdb !-->
+                <fileExtensions>*.accdb</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Database file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </msaccessFileIcon2>
+            <mswordTemplateFileIcon1>
+                <!-- For use for older Microsoft Word template documents (Word 1.0 to Word 2003) .dot !-->
+                <fileExtensions>*.dot</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mswordTemplateFileIcon1>
+            <mswordTemplateFileIcon2>
+                <!-- For use for newer Microsoft Word template documents (Word 2007 and up, office 365) .dotx !-->
+                <fileExtensions>*.dotx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mswordTemplateFileIcon2>
+            <msexcelTemplateFileIcon1>
+                <!-- For use for older Microsoft Excel template spreadsheets (Excel 1.0 to Excel 2003) .xlt !-->
+                <fileExtensions>*.xlt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Spreadsheet</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </msexcelTemplateFileIcon1>
+            <msexcelTemplateFileIcon2>
+                <!-- For use for newer Microsoft Excel template spreadsheets (Excel 2007 and up, office 365) .xlst !-->
+                <fileExtensions>*.xlst</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Spreadsheet</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </msexcelTemplateFileIcon2>
+            <mspowerpointTemplateFileIcon1>
+                <!-- For use for older Microsoft PowerPoint template presentations (PowerPoint 1.0 to PowerPoint 2003) .pot !-->
+                <fileExtensions>*.pot</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Presentation</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mspowerpointTemplateFileIcon1>
+            <mspowerpointTemplateFileIcon2>
+                <!-- For use for newer Microsoft PowerPoint template presentations (PowerPoint 2007 and up, office 365) .potx !-->
+                <fileExtensions>*.potx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Presentation</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mspowerpointTemplateFileIcon2>
+            <mediaFireFolderIcon>
+                <!-- Syncs with the SNU Drive variant of MediaFire !-->
+                <svg>
+                
+                </svg>
+            </mediaFireFolderIcon>
+            <mkvFileIcon>
+                <fileExtensions>*.mkv</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mkvFileIcon>
+            <mp4FileIcon>
+                <fileExtensions>*.mp4</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mp4FileIcon>
+            <mpegFileIcon>
+                <fileExtensions>*.mpeg</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mpegFileIcon>
+            <mp3FileIcon>
+                <fileExtensions>*.mp3</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mp3FileIcon>
+            <m4aFileIcon>
+                <fileExtensions>*.m4a</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </m4aFileIcon>
+            <m4vFileIcon>
+                <fileExtensions>*.m4v</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </m4vFileIcon>
+            <midiFileIcon>
+                <fileExtensions>*.mid</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </midiFileIcon>
+            <matlabSourceIcon>
+                <fileExtensions>*.m</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </matlabSourceIcon>
+            <mathematicaSourceIcon>
+                <fileExtensions>*.m</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mathematicaSourceIcon>
+            <markdownSourceIcon>
+                <fileExtensions>*.md *.mkd *.mdown *.markdown</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </markdownSourceIcon>
+            <makefileourceIcon>
+                <fileExtensions>*makefile *.mk *.mak *.make</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </makefileSourceIcon>
+            <mercurySourceIcon>
+                <fileExtensions>*.m</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mercurySourceIcon>
+            <mSourceIcon>
+                <fileExtensions>*.m</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mSourceIcon>
+            <mp2FileIcon>
+                <fileExtensions>*.mp2</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </mp2FileIcon>
+            <moonScriptSourceIcon>
+                <fileExtensions>*.moon</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </moonScriptSourceIcon>
+            <metalSourceIcon>
+                <fileExtensions>*.metal</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </metalSourceIcon>
+            <mathFolderIcon>
+                <svg>
+                
+                </svg>
+            </mathFolderIcon>
+            <movFileIcon>
+                <fileExtensions>*.mov</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </movFileIcon>
+            <nimSourceIcon>
+                <fileExtensions>*.nim *.nimrod *.nimble</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </nimSourceIcon>
+            <nixSourceIcon>
+                <fileExtensions>*.nix</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code/Software package format</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </nixSourceIcon>
+            <nsisSourceIcon>
+                <fileExtensions>*.nsh</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </nsisSourceIcon>
+            <netscapeFolderIcon>
+                <svg>
+                
+                </svg>
+            </netscapeFolderIcon>
+            <netmFileIcon>
+                <fileExtensions>*.netm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </netmFileIcon>
+            <netpFileIcon>
+                <fileExtensions>*.netp</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </netpFileIcon>
+            <netRexxSourceIcon>
+                <svg>
+                
+                </svg>
+            </netRexxSourceIcon>
+            <oneDriveFolderIcon>
+                <!-- Syncs with the SNU Drive variant of OneDrive !-->
+                <svg>
+                
+                </svg>
+            </oneDriveFolderIcon>
+            <objective-cSourceIcon>
+                <fileExtensions>*.m</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </objective-cSourceIcon>
+            <objective-cppSourceIcon>
+                <fileExtensions>*.mm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </objective-cppSourceIcon>
+            <objective-jSourceIcon>
+                <fileExtensions>*.j</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </objective-jSourceIcon>
+            <ocamlSourceIcon>
+                <svg>
+                
+                </svg>
+            </ocamlSourceIcon>
+            <oggFileIcon>
+                <fileExtensions>*.ogg</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </oggFileIcon>
+            <ogaFileIcon>
+                <fileExtensions>*.oga</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ogaFileIcon>
+            <ogvFileIcon>
+                <fileExtensions>*.ogv</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ogvFileIcon>
+            <opusFileIcon>
+                <fileExtensions>*.opus</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </opusFileIcon>
+            <openEdgeABLSourceIcon>
+                <fileExtensions>*.cls</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </openEdgeABLSourceIcon>
+            <openDocumentTextFileIcon>
+                <fileExtensions>*.odt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </openDocumentTextFileIcon>
+            <openDocumentFormatFileIcon>
+                <fileExtensions>*.odf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </openDocumentFormatFileIcon>
+            <openDocumentSpreadsheetFileIcon>
+                <fileExtensions>*.ods</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Spreadsheet</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </openDocumentSpreadsheetFileIcon>
+            <openDocumentPresentationFileIcon>
+                <fileExtensions>*.odp</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Spreadsheet</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </openDocumentPresentationFileIcon>
+            <pythonSourceIcon>
+                <fileExtensions>*.py *.pyw *.py3</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pythonSourceIcon>
+            <ponySourceIcon>
+                <fileExtensions>*.pony</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ponySourceIcon>
+            <picturesFolderIcon>
+                <svg>
+                
+                </svg>
+            </picturesFolderIcon>
+            <pascalSourceIcon>
+                <fileExtensions>*.pas</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pascalSourceIcon>
+            <pngFileIcon>
+                <fileExtensions>*.png *.pns</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pngFileIcon>
+            <psdFileIcon>
+                <fileExtensions>*.psd *.pdt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Photoshop Image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </psdFileIcon>
+            <postscriptSourceIcon>
+                <fileExtensions>*.ps *.eps</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </postscriptSourceIcon>
+            <pdfFileIcon>
+                <fileExtensions>*.pdf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pdfFileIcon>
+            <pureBasicSourceIcon>
+                <svg>
+                
+                </svg>
+            </pureBasicSourceIcon>
+            <pureScriptSourceIcon>
+                <fileExtensions>*.purs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pureScriptSourceIcon>
+            <pureDataSourceIcon>
+                <svg>
+                
+                </svg>
+            </pureDataSourceIcon>
+            <pigSourceIcon>
+                <fileExtensions>*.pig</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pigSourceIcon>
+            <pugSourceIcon>
+                <fileExtensions>*.pug</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </pugSourceIcon>
+            <powershellSourceIcon>
+                <fileExtensions>*.ps1</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </powershellSourceIcon>
+            <prologSourceIcon>
+                <fileExtensions>*.pl *.pro</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </prologSourceIcon>
+            <puppetSourceIcon>
+                <svg>
+                
+                </svg>
+            </puppetSourceIcon>
+            <pCloudFolderIcon>
+                <!-- Syncs with SNU Drives variant of pCloud !-->
+                <svg>
+                
+                </svg>
+            </pCloudFolderIcon>
+            <protonMailFolderIcon>
+                <svg>
+                
+                </svg>
+            </protonMailFolderIcon>
+            <protonDriveFolderIcon>
+                <!-- Syncs with the SNU Drive variant of ProtonDrive !-->
+                <svg>
+                
+                </svg>
+            </protonDriveFolderIcon>
+            <phpSourceIcon>
+                <fileExtensions>*.php</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </phpSourceIcon>
+            <perlSourceIcon>
+                <fileExtensions>*.pl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </perlSourceIcon>
+            <pawnSourceIcon>
+                <svg>
+                
+                </svg>
+            </pawnSourceIcon>
+            <pgpFileIcon>
+                <svg>
+                
+                </svg>
+            </pgpFileIcon>
+            <qsharpSourceIcon>
+                <fileExtensions>*.qs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </qsharpSourceIcon>
+            <qmlSourceIcon>
+                <fileExtensions>*.qml</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </qmlSourceIcon>
+            <qmakeSourceIcon>
+                <svg>
+                
+                </svg>
+            </qmakeSourceIcon>
+            <qSourceIcon>
+                <fileExtensions>*.q</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </qSourceIcon>
+            <quicktimeFileIcon>
+                <fileExtensions>*.qt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </quicktimeFileIcon>
+            <quicktimeFolderIcon>
+                <svg>
+                
+                </svg>
+            </quicktimeFolderIcon>
+            <rSourceIcon>
+                <fileExtensions>*.r</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rSourceIcon>
+            <rmarkdownSourceIcon>
+                <fileExtensions>*.rmd</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rmarkdownSourceIcon>
+            <rustSourceIcon>
+                <fileExtensions>*.rs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rustSourceIcon>
+            <rakuSourceIcon>
+                <fileExtensions>*.raku</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rakuSourceIcon>
+            <rebolSourceIcon>
+                <fileExtensions>*.r *.reb</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            <rebolSourceIcon>
+            <redSourceIcon>
+                <fileExtensions>*.r *.red *.reds</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </redSourceIcon>
+            <reasonSourceIcon>
+                <fileExtensions>*.re *.rei</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </reasonSourceIcon>
+            <reScriptSourceIcon>
+                <fileExtensions>*.res</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </reScriptSourceIcon>
+            <racketSourceIcon>
+                <fileExtensions>*.scrbl *.rkt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </racketSourceIcon>
+            <rascalSourceIcon>
+                <fileExtensions>*.rc</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rascalSourceIcon>
+            <renpySourceIcon>
+                <fileExtensions>*.rpy</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </renpySourceIcon>
+            <rubySourceIcon>
+                <fileExtensions>*.rb *.ruby</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rubySourceIcon>
+            <rubyRakefileIcon>
+                <fileExtensions>*.rake</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rubyRakefileIcon>
+            <rubyGemfileIcon>
+                <fileExtensions>*.gem</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rubyGemfileIcon>
+            <rubyGemFileIcon>
+                <fileExtensions>*.gemfile</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rubyGemFileIcon>
+            <rubyGemspecIcon>
+                <fileExtensions>*.gemspec</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rubyGemspecIcon>
+            <ramFileIcon>
+                <fileExtensions>*.ram</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </ramFileIcon>
+            <rarFileIcon>
+                <fileExtensions>*.rar</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Compressed archive file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rarFileIcon>
+            <rpcSourceIcon>
+                <fileExtensions>*.x</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rpcSourceIcon>
+            <roffSourceIcon>
+                <fileExtensions>*.roff *.1 *.2 *.3</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </roffSourceIcon>
+            <rtfFileIcon>
+                <fileExtensions>*.rtf</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>False</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </rtfFileIcon>
+            <reStructuredTextSourceIcon>
+                <fileExtensions>*.rst</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </reStructuredTextSourceIcon>
+            <schemeSourceIcon>
+                <fileExtensions>*.scm *.ss</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </schemeSourceIcon>
+            <scalaSourceIcon>
+                <fileExtensions>*.scala</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </scalaSourceIcon>
+            <swiftSourceIcon>
+                <fileExtensions>*.swift *.sil</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </swiftSourceIcon>
+            <smalltalkSourceIcon>
+                <fileExtensions>*.st</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </smalltalkSourceIcon>
+            <sbFileIcon>
+                <fileExtensions>*.sb</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Scratch 1.x program</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sbFileIcon>
+            <sb2FileIcon>
+                <fileExtensions>*.sb2</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Scratch 2 program</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sb2FileIcon>
+            <sb3FileIcon>
+                <fileExtensions>*.sb3</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Scratch 3 program</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sb3FileIcon>
+            <snuFolderIcon>
+                <svg>
+                
+                </svg>
+            </snuFolderIcon>
+            <skinsFolderIcon>
+                <svg>
+                
+                </svg>
+            </skinsFolderIcon>
+            <sqlSourceIcon>
+                <fileExtensions>*.sql</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sqlSourceIcon>
+            <svelteSourceIcon>
+                <fileExtensions>*.svelte</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </svelteSourceIcon>
+            <svgSourceIcon>
+                <fileExtensions>*.svg</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code/Vector image file</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </svgSourceIcon>
+            <singularitySourceIcon>
+                <fileExtensions>*singularity</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </singularitySourceIcon>
+            <sweaveSourceIcon>
+                <svg>
+                
+                </svg>
+            </sweaveSourceIcon>
+            <slimSourceIcon>
+                <fileExtensions>*.slim</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </slimSourceIcon>
+            <systemVerilogSourceIcon>
+                <fileExtensions>*.sv</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </systemVerilogSourceIcon>
+            <sedSourceIcon>
+                <fileExtensions>*.sed</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sedSourceIcon>
+            <scssSourceIcon>
+                <fileExtensions>*.scss</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </scssSourceIcon>
+            <sassSourceIcon>
+                <fileExtensions>*.sass</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sassSourceIcon>
+            <starlarkSourceIcon>
+                <fileExtensions>*BUILD</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </starlarkSourceIcon>
+            <sysFileIcon>
+                <fileExtensions>*.sys</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Windows System file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sysFileIcon>
+            <standardMLSourceIcon>
+                <fileExtensions>*.sml *.sig</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </standardMLSourceIcon>
+            <soliditySourceIcon>
+                <fileExtensions>*.sol</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </soliditySourceIcon>
+            <sageSourceIcon>
+                <fileExtensions>*.sage</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sageSourceIcon>
+            <sourcePawnSourceIcon>
+                <fileExtensions>*.inc *.sp</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </sourcePawnSourceIcon>
+            <typeScriptSourceIcon>
+                <fileExtensions>*.ts *.tsx</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </typeScriptSourceIcon>
+            <tclSourceIcon>
+                <fileExtensions>*.tcl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </tclSourceIcon>
+            <tomlSourceIcon>
+                <fileExtensions>*.toml</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </tomlSourceIcon>
+            <thriftourceIcon>
+                <fileExtensions>*.thrift</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </thriftSourceIcon>
+            <textPlainSourceIcon>
+                <fileExtensions>*.txt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </textPlainSourceIcon>
+            <tiffFileIcon>
+                <fileExtensions>*.tif *.tiff</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </tiffFileIcon>
+            <tarFileIcon>
+                <fileExtensions>*.tar</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Tarball</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </tarFileIcon>
+            <texSourceIcon>
+                <fileExtensions>*.tex</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </texSourceIcon>
+            <urlFileIcon>
+                <fileExtensions>*.url *.lnk</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Shortcut file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </urlFileIcon>
+            <urllFileIcon>
+                <fileExtensions>*.urll</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Shortcut file</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </urllFileIcon>
+            <uotFileIcon>
+                <fileExtensions>*.uot</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </uotFileIcon>
+            <unrealScriptFileIcon>
+                <fileExtensions>*.uc</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </unrealScriptFileIcon>
+            <vhdlSourceIcon>
+                <fileExtensions>*.vhdl</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </vhdlSourceIcon>
+            <virtualRealityFolderIcon>
+                <svg>
+                
+                </svg> 
+            </virtualRealityFolderIcon>
+            <vSourceIcon>
+                <fileExtensions>*.v</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </vSourceIcon>
+            <virtualHardDiskIcon>
+                <fileExtensions>*.vhd</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Virtual Hard Disk</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </virtualHardDiskIcon>
+            <virtualMachineDiskIcon>
+                <fileExtensions>*.vmdk</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Virtual Hard Disk</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </virtualMachineDiskIcon>
+            <virtualFloppyDiskIcon>
+                <fileExtensions>*.vfd</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Virtual Floppy Diskette</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </virtualFloppyDiskIcon>
+            <virtualMachineFolderIcon>
+                <svg>
+                
+                </svg>
+            </virtualMachineFolderIcon>
+            <videolanFolderIcon>
+                <svg>
+                
+                </svg>
+            </videolanFolderIcon>
+            <vhsFolderIcon>
+                <!-- Connects with SNU OpenVHS !-->
+                <svg>
+                
+                </svg>
+            </vhsFolderIcon>
+            <vimFolderIcon>
+                <svg>
+                
+                </svg>
+            </vimFolderIcon>
+            <vimscriptSourceIcon>
+                <fileExtensions>*.vim</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </vimscriptSourceIcon>
+            <valveFolderIcon>
+                <svg>
+                
+                </svg>
+            </valveFolderIcon>
+            <valaSourceIcon>
+                <fileExtensions>*.vala *.vapi</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </valaSourceIcon>
+            <verilogSourceIcon>
+                <fileExtensions>*.v</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </verilogSourceIcon>
+            <webassemblySourceIcon>
+                <fileExtensions>*.wat *.wasm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </webassemblySourceIcon>
+            <webFolderIcon>
+                <svg>
+                
+                </svg>
+            </webFolderIcon>
+            <webmFileIcon>
+                 <fileExtensions>*.webm</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Video file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </webmFileIcon>
+            <webpFileIcon>
+                <fileExtensions>*.webp</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Raster image file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </webpFileIcon>
+            <wavFileIcon>
+                <fileExtensions>*.wav</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+               <fileType>Audio file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </wavFileIcon>
+            <windowsFolderIcon>
+                <svg>
+                
+                </svg>
+            </windowsFolderIcon>
+            <wacosCloudFolderIcon>
+                <!-- Connects with the SNU Drive variant of iCloud, WacOS Cloud !-->
+                <svg>
+                
+                </svg>
+            </wacosCloudFolderIcon>
+            <xmlSourceIcon>
+                <fileExtensions>*.xml</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </xmlSourceIcon>
+            <xsltSourceIcon>
+                <fileExtensions>*.xslt</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </xsltSourceIcon>
+            <xpsFileIcon>
+                <fileExtensions>*.xps</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Document</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </xpsFileIcon>
+            <xsSourceIcon>
+                <fileExtensions>*.xs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </xsSourceIcon>
+            <yamlSourceIcon>
+                <fileExtensions>*.yml *.yaml</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </yamlSourceIcon>
+            <yaccSourceIcon>
+                <fileExtensions>*.y *.yacc</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </yaccSourceIcon>
+            <yaraSourceIcon>
+                <fileExtensions>*.yara</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </yaraSourceIcon>
+            <zenscriptSourceIcon>
+                <fileExtensions>*.zs</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </zenScriptSourceIcon>
+            <zigSourceIcon>
+                <fileExtensions>*.zig *.zir</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </zigSourceIcon>
+            <zipFileIcon>
+                <fileExtensions>*.zip</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+               <fileType>Compressed archive file</fileType>
+                <isBinary>True</isBinary>
+                <encoding>Unknown</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </zipFileIcon>
+            <zapSourceIcon>
+                <fileExtensions>*.zap</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </zapSourceIcon>
+            <zilSourceIcon>
+                <fileExtensions>*.zil</fileExtensions>
+                <iconEnabled>False</iconEnabled>
+                <fileType>Source code</fileType>
+                <isBinary>False</isBinary>
+                <encoding>UTF-8</encoding>
+                <isFolder>False</isFolder>
+                <svg>
+                
+                </svg>
+            </zilSourceIcon>
+        </supplemental>
+      </skin>
+    </container>
+  </driveskin>
+</snu-drive>
+<!-- End of skin file !-->
+<!-- File version: 3 (2022, Wednesday, July 20th at 4:15 pm PST)
+File type: Driveskn XML skin source file (*.driveskn)
+Line count (including blank lines and compiler line): 3,576
+!-->
