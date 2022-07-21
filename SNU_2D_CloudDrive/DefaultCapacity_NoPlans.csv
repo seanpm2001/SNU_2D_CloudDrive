@@ -1,8 +1,16 @@
-Default capacity and plans,free (in bytes),free (in kilobytes),free (in megabytes),free (in gigabytes),Locked (in bytes),Locked (in Kilobytes),Locked (in Megabytes),Locked (in Gigabytes)
-Dropbox,"2,000,000,000 bytes","2,000,000 kilobytes","2,000 megabytes",2 Gigabytes,0 bytes,0 kilobytes,0 megabytes,0 gigabytes
-Google Drive,"15,000,000,000 bytes","15,000,000 kilobytes","15,000 megabytes",15 Gigabytes,0 bytes,0 kilobytes,0 megabytes,0 gigabytes
-OneDrive,"5,000,000,000 bytes","5,000,000 kilobytes","5,000 megabytes",5 Gigabytes,0 bytes,0 kilobytes,0 megabytes,0 gigabytes
-pCloud,"10,000,000,000 bytes","10,000,000 kilobytes","10,000 megabytes",10 Gigabytes,"5,000,000,000 bytes","5,000,000 kilobytes","5,000 megabytes",5 gigabytes
-MediaFire,"10,000,000,000 bytes","10,000,000 kilobytes","10,000 megabytes",10 Gigabytes,"490,000,000,000 bytes","490,000,000 kilobytes","490,000 megabytes",490 gigabyes
-SNU,"100-1,000,000,000,000,000 bytes","0.1-1,000,000,000,000 kilobytes","0.0001-1,000,000,000 megabytes","0.000001-1,000,000 Gigabytes",?,?,?,?
-Other (unlisted),?,?,?,?,?,?,?,?
+Default capacity and plans,free (in bytes),free (in kilobytes),free (in megabytes),free (in gigabytes),Locked (in bytes)
+Amazon Drive,"5,000,000,000 bytes","5,000,000 kilobytes","5,000 megabytes",5 Gigabytes,0 bytes
+Degoo,"100,000,000 bytes","100,000 kilobytes","1,000 megabytes",100 Gigabytes,0 bytes
+Dropbox,"2,000,000,000 bytes","2,000,000 kilobytes","2,000 megabytes",2 Gigabytes,0 bytes
+Google Drive,"15,000,000,000 bytes","15,000,000 kilobytes","15,000 megabytes",15 Gigabytes,0 bytes
+OneDrive,"5,000,000,000 bytes","5,000,000 kilobytes","5,000 megabytes",5 Gigabytes,0 bytes
+pCloud,"10,000,000,000 bytes","10,000,000 kilobytes","10,000 megabytes",10 Gigabytes,"5,000,000,000 bytes"
+ProtonDrive,"500,000,000 bytes","500,000 kilobytes",500 megabytes,0.5 Gigabytes,"500,000,000 bytes"
+MediaFire,"10,000,000,000 bytes","10,000,000 kilobytes","10,000 megabytes",10 Gigabytes,"490,000,000,000 bytes"
+SNU,"100-1,000,000,000,000,000 bytes","0.1-1,000,000,000,000 kilobytes","0.0001-1,000,000,000 megabytes","0.000001-1,000,000 Gigabytes",?
+SNU Drive,"100-1,000,000,000,000,000 bytes","0.1-1,000,000,000,000 kilobytes","0.0001-1,000,000,000 megabytes","0.000001-1,000,000 Gigabytes",?
+WacOS Cloud (iCloud),"15,000,000,000 bytes","15,000,000 kilobytes","15,000 megabytes",15 Gigabytes,0 bytes
+Yandex Cloud,?,?,?,?,?
+Other (unlisted),?,?,?,?,?
+File info,,,,,
+"Version 3 (2022, Wednesday, July 20th)",,,,,
