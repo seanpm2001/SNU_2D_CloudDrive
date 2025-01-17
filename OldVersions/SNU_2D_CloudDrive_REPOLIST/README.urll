@@ -2,10 +2,10 @@
 //// SNU_2D_CloudDrive_REPOLIST.urll
 //// https://github.com/seanpm2001/URLL-Specification
 //// A list of all SNU 2D CloudDrive project repositories by @seanpm2001
-//// As of 2025, Wednesday, January 15th
+//// As of 2025, Thursday, January 16th
 
 //// ----------------------------------------------------- \\\\
-//// SNU 2D CloudDrive Project (26)
+//// SNU 2D CloudDrive Project (32)
 //// ----------------------------------------------------- \\\\
 
 //// Home repository (1)
@@ -61,33 +61,39 @@ https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_PCloud_Docs
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_ProtonDrive
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_ProtonDrive_Docs
 
-//// Modes (SNU Drive) (1)
+//// Modes (SNU Drive) (2)
 
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_SNU-Drive
+https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_SNU-Drive_Docs
 
-//// Modes (SNU) (1)
+//// Modes (SNU) (2)
 
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_SNU
+https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_SNU_Docs
 
-//// Modes (WacOS Cloud) (1)
+//// Modes (WacOS Cloud) (2)
 
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_WacOS_Cloud
+https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_WacOS_Cloud_Docs
 
-//// Modes (Yandex Cloud) (1)
+//// Modes (Yandex Cloud) (2)
 
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_Yandex_Cloud
+https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_Yandex_Cloud_Docs
 
-//// Modes (Yandex Disk) (1)
+//// Modes (Yandex Disk) (2)
 
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_Yandex_Disk
+https://github.com/seanpm2001/SNU_2D_CloudDrive_Modes_Yandex_Disk_Docs
 
-//// Plans (main) (1)
+//// Plans (main) (2)
 
 https://github.com/seanpm2001/SNU_2D_CloudDrive_Plans
+https://github.com/seanpm2001/SNU_2D_CloudDrive_Plans_Docs
 
 //// ----------------------------------------------------- \\\\
-//// Repo count (SNU 2D CloudDrive): 26
-//// 1+1+2+2+2+2+2+2+2+2+2+1+1+1+1+1+1=26
+//// Repo count (SNU 2D CloudDrive): 32
+//// 1+1+2+2+2+2+2+2+2+2+2+2+2+2+2+2+2=32
 //// ----------------------------------------------------- \\\\
 
 //// ----------------------------------------------------- \\\\
@@ -99,15 +105,15 @@ https://github.com/seanpm2001/SNU_2D_CloudDrive_Plans
 //// Repo count (See also): 0
 //// 0+0
 //// ----------------------------------------------------- \\\\
-//// Total repo count: 26
-//// 26+0=26
+//// Total repo count: 32
+//// 32+0=32
 //// ----------------------------------------------------- \\\\
 
 //// ----------------------------------------------------- \\\\
 //// File info
 //// File type: URLL v3 list file (*.urll)
-//// File version: 4 (2025, Wednesday, January 15th at 05:01 pm PST)
-//// Line count (including blank lines and compiler line): 114
+//// File version: 5 (2025, Thursday, January 16th at 06:11 pm PST)
+//// Line count (including blank lines and compiler line): 120
 //// ----------------------------------------------------- \\\\
 
 //// End of file
